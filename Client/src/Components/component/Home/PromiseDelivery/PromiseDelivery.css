@@ -1,0 +1,50 @@
+/* Promise Section */
+
+.promise-section {
+    height: 40vh;
+    width: 100%;
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF,#F8EDE3,#003B73,#A084E8,#E0F7FA	,#00B8D4			;
+}
+
+
+/* promise delivery content */
+.promise-center {
+    border: 1px dashed #000;
+    width: 75%;
+    height: 40%;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.promise-center .list-1,
+.list-2,
+.list-3,
+.list-4,
+.list-5 {
+    padding: 10px;
+    width: 200px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.list-1 span,
+.list-2 span,
+.list-3 span,
+.list-4 span,
+.list-5 span {
+    width: 100px;
+}
+
+.promise-center>hr {
+    border: 1px dashed #000;
+    height: 40px;
+}
