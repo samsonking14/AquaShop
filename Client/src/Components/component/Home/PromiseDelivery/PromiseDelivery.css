@@ -15,7 +15,7 @@
 /* promise delivery content */
 .promise-center {
     border: 1px dashed #000;
-    width: 75%;
+    width: 95%;
     height: 40%;
     display: flex;
     gap: 40px;
@@ -47,4 +47,19 @@
 .promise-center>hr {
     border: 1px dashed #000;
     height: 40px;
+}
+.list-1 img{
+    width: 100px;
+}
+.list-2 img{
+    width: 70px;
+}
+.list-3 img{
+    width: 70px;
+}
+.list-4 img{
+    width: 70px;
+}
+.list-5 img{
+    width: 70px;
 }

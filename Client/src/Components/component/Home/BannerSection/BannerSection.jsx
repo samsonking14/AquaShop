@@ -1,5 +1,6 @@
 import React from 'react'
-import './BannerSection.css'; 
+import './BannerSection.css';
+
 export default function BannerSection() {
   return (
     <div>
