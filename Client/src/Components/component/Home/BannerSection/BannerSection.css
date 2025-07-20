@@ -1,77 +1,202 @@
 /* banner-collection-section */
 
-
 .BannerCollectionSection {
-    height: 40vh;
-    background-color: #fff;
+  height: 40vh;
+  background-color: #fff;
 }
 
 .BannerCollectionSection h3 {
-    font-size: 20px;
-    padding-left: 40px;
-    text-decoration: underline;
+  font-size: 20px;
+  padding-left: 190px;
+  text-decoration: underline;
 }
 
 .collection-list-items {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .collection-list {
-    width: 100%;
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 
 .collect-items {
-    width: 280px;
-    height: 200px;
-    background-color: aqua;
+  width: 280px;
+  height: 200px;
+  background-color: aqua;
 }
 .collect-items1 {
-    width: 280px;
-    height: 200px;
-    background: linear-gradient(45deg,#856EBF,#BAABE8);
-    border-radius: 25px;
+  width: 280px;
+  height: 200px;
+  background: linear-gradient(45deg, #856ebf, #baabe8);
+  border-radius: 25px;
 }
 
-.collect-items1>.right-item {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
+.collect-items1 > .right-item1 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
 }
-.collect-items1 > .right-item >span{
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 14px;
+.collect-items1 > .right-item1 > span {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
 }
-.collect-items1 > .right-item >h1{
-    color: #fff;
-    font-weight: 900;
-    font-size: 40px;
+.collect-items1 > .right-item1 > h1 {
+  color: #fff;
+  font-weight: 900;
+  font-size: 40px;
 }
-.collect-items1 > .right-item >h1>span{
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: 900;
-    font-size: 20px;
+.collect-items1 > .right-item1 > h1 > span {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 20px;
 }
-.collect-items1 > .right-item a{
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: 900;
-    background-color: #6839CC;
-    padding: 10px 20px;
-    font-size: 14px;
-    border-radius: 50px;
+.collect-items1 > .right-item1 a {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 900;
+  background-color: #6839cc;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 50px;
+}
+.collect-items2 {
+  width: 280px;
+  height: 200px;
+  background: linear-gradient(45deg, #856ebf, #baabe8);
+  border-radius: 25px;
+}
+
+.collect-items2 > .right-item2 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.collect-items2 > .right-item2 > span {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+}
+.collect-items2 > .right-item2 > h1 {
+  color: #fff;
+  font-weight: 900;
+  font-size: 40px;
+}
+.collect-items2 > .right-item2 > h1 > span {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 20px;
+}
+.collect-items2 > .right-item2 a {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 900;
+  background-color: #6839cc;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 50px;
+}
+.collect-items3 {
+  width: 280px;
+  height: 200px;
+  background: linear-gradient(45deg, #856ebf, #baabe8);
+  border-radius: 25px;
+}
+
+.collect-items3 > .right-item3 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.collect-items3 > .right-item3 > span {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+}
+.collect-items3 > .right-item3 > h1 {
+  color: #fff;
+  font-weight: 900;
+  font-size: 40px;
+}
+.collect-items3 > .right-item3 > h1 > span {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 20px;
+}
+.collect-items3 > .right-item3 a {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 900;
+  background-color: #6839cc;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 50px;
+}
+.collect-items4 {
+  width: 280px;
+  height: 200px;
+  background: linear-gradient(45deg, #856ebf, #baabe8);
+  border-radius: 25px;
+}
+
+.collect-items4 > .right-item4 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.collect-items4 > .right-item4 > span {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+}
+.collect-items4 > .right-item4 > h1 {
+  color: #fff;
+  font-weight: 900;
+  font-size: 40px;
+}
+.collect-items4 > .right-item4 > h1 > span {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 20px;
+}
+.collect-items4 > .right-item4 a {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 900;
+  background-color: #6839cc;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 50px;
 }

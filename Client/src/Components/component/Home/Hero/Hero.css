@@ -6,27 +6,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background: linear-gradient(185deg, #00DBDE, #00B8D4); */
-    /* background: linear-gradient(135deg, #00B8D4, #A084E8); */
     background: linear-gradient(240deg, #00C6FF, #0072FF);
-
+    /* flex-wrap: wrap; */
 }
 
 /* dog image place */
 .Hero-section .left {
-    width: 70%;
+    width: 100%;
 }
 
 .Hero-section .left img {
     padding-top: 50px;
-    width: 100%;
+    width: 800px;
     transform: scaleX(-1);
 }
 
 /* Hero-page Content Placed */
 .Hero-section .right {
     padding-top: 120px;
-    width: 60%;
+    width: 100%;
     height: 90vh;
     display: flex;
     flex-direction: column;

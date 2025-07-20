@@ -15,7 +15,7 @@
 /* promise delivery content */
 .promise-center {
     border: 1px dashed #000;
-    width: 95%;
+    width: 80%;
     height: 40%;
     display: flex;
     gap: 40px;
@@ -29,7 +29,7 @@
 .list-4,
 .list-5 {
     padding: 10px;
-    width: 200px;
+    width: 250px;
     display: flex;
     gap: 10px;
     align-items: center;
@@ -42,6 +42,7 @@
 .list-4 span,
 .list-5 span {
     width: 100px;
+    font-size: 14px;
 }
 
 .promise-center>hr {
