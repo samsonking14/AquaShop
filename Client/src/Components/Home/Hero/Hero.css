@@ -54,9 +54,11 @@
     transition: all 0.3s ease-in-out;
     cursor: pointer;
 }
+
 .Hero-section .right button:hover {
     background-color: #E0F7FA;
     color: #003B73;
+    transform: scale(1.05);
 }
 
 .Hero-section .right h1 {

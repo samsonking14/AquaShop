@@ -2,7 +2,9 @@
   width: 100%;
   height: 100vh;
   background: linear-gradient(240deg, #00c6ff, #0072ff);
+  padding: 50px 0px;
 }
+
 .productHead {
   padding-top: 50px;
   width: 100%;
@@ -12,16 +14,20 @@
   align-items: center;
   font-weight: 600;
 }
+
 .productHead h3 {
-  font-size: 20px;
+  font-size: 24px;
   padding-left: 190px;
+  color: #fff;
   text-decoration: underline;
 }
+
 .side {
   padding-right: 390px;
   display: flex;
   gap: 40px;
 }
+
 .tab-side {
   background-color: transparent;
   border: none;
@@ -35,12 +41,15 @@
 }
 
 .tab-side:hover {
-  background-color: #e0f7fa; /* light aqua */
-  color: #0077b6; /* ocean blue */
+  background-color: #e0f7fa;
+  /* light aqua */
+  color: #0077b6;
+  /* ocean blue */
 }
 
 .tab-side.active {
-  background-color: #a084e8; /* purple accent */
+  background-color: #a084e8;
+  /* purple accent */
   color: white;
 }
 
@@ -52,6 +61,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .product-list .product-card {
   width: 250px;
   height: 350px;
@@ -60,35 +70,47 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s;
 }
+
 .product-list .product-card:hover {
   transform: scale(1.05);
 }
+
 .product-list .product-card img {
   width: 100%;
   height: 200px;
+  object-fit: contain;
 }
+
 .contentProduct h4 {
   padding: 5px 0px 0px 10px;
-  font-size: 18px;
-  font-weight: 600;
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
 }
+
 .contentProduct p {
   padding: 5px 0px 0px 10px;
   font-size: 14px;
-  color: #6f44d0;
+  background-color: #fff;
+  width: 35%;
+  border-radius: 0px 10px 10px 0px;
+  color: #4f03ff;
   font-weight: bold;
   font-size: 20px;
 }
+
 .reviewsSystem {
   display: flex;
   align-items: center;
   padding: 5px 0px 10px 10px;
   gap: 5px;
 }
+
 .review-count {
   font-size: 14px;
   color: #fff;
 }
+
 .AddToCart {
   width: 100%;
   height: 40px;
@@ -100,10 +122,17 @@
   cursor: pointer;
   font-weight: bold;
   transition: background-color 0.3s ease;
+  display: none;
 }
+
+.product-card:hover .AddToCart {
+  display: block;
+}
+
 .AddToCart:hover {
-  background-color: #005bb5; 
+  background-color: #005bb5;
 }
+
 .no-results {
   color: #333;
   text-align: center;

@@ -1,0 +1,52 @@
+.AdvertsementSection{
+    height: 50vh;
+    background-color: #EDE0E0;
+    padding: 50px 0px;
+}
+.advertise{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.advertise .left {
+    width: 50%;
+}
+.contentadvertise1 span{
+    font-size: 20px;
+    color: #ff7300;
+    font-weight: 600;
+    line-height: 1;
+}
+.contentadvertise1 h1{
+    font-size: 75px;
+    width: 700px;
+    line-height: 1.2;
+    color: #19063C;
+}
+.contentadvertise2 p{
+    font-size: 20px;
+    color: #000;
+    font-weight: 400;
+    line-height: 5;
+}
+.contentadvertise2 button{
+    color: #fff;
+  text-transform: uppercase;
+  font-weight: 900;
+  background-color: #6839cc;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 50px;
+  border: none;
+}
+.contentadvertise2 button:hover {
+    background-color: #E0F7FA;
+    color: #003B73;
+    transform: scale(1.05);
+}
+.advertise .right {
+    width: 30%;
+}
+.advertise .right img{
+    width: 600px;
+}

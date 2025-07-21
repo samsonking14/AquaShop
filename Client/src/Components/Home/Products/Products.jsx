@@ -15,6 +15,14 @@ export default function Products() {
       ? data
       : data.filter((item) => item.category === activeCategory);
 
+  function formatCount(count) {
+    if (count >= 1000) {
+      return (count / 1000).toFixed(1).replace(/\.0$/, '') + "k";
+    }
+    return count;
+  }
+
+
   return (
     <div>
       <section className="productsSection">
@@ -24,9 +32,8 @@ export default function Products() {
             {categories.map((category) => (
               <button
                 key={category}
-                className={`tab-side ${
-                  activeCategory === category ? "active" : ""
-                }`}
+                className={`tab-side ${activeCategory === category ? "active" : ""
+                  }`}
                 onClick={() => setActiveCategory(category)}
               >
                 {category}
@@ -43,14 +50,15 @@ export default function Products() {
                   <img src={image} alt={title} />
                 </div>
                 <div className="contentProduct">
-                  <p>₹{price}</p>
+                  <p>₹ {price}</p>
                   <h4>{title}</h4>
                 </div>
                 <div className="reviewsSystem">
                   <StarRate rating={rating} />
                   <span className="review-count">
-                    ({reviewCount || 0} reviews)
+                    ({formatCount(reviewCount || 0)} reviews)
                   </span>
+
                 </div>
                 <button
                   className="AddToCart"

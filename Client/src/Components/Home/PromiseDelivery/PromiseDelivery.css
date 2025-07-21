@@ -1,14 +1,13 @@
 /* Promise Section */
 
 .promise-section {
-    height: 40vh;
+    height: 22vh;
     width: 100%;
-    background-color: #fff;
+    background-color: #f9f9f9;
     color: #000;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #FFFFFF,#F8EDE3,#003B73,#A084E8,#E0F7FA	,#00B8D4			;
 }
 
 
@@ -49,18 +48,23 @@
     border: 1px dashed #000;
     height: 40px;
 }
-.list-1 img{
+
+.list-1 img {
     width: 80px;
 }
-.list-2 img{
+
+.list-2 img {
     width: 60px;
 }
-.list-3 img{
+
+.list-3 img {
     width: 90px;
 }
-.list-4 img{
+
+.list-4 img {
     width: 50px;
 }
-.list-5 img{
+
+.list-5 img {
     width: 50px;
 }

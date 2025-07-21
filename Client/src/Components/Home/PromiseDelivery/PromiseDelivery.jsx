@@ -1,10 +1,10 @@
 import React from 'react'
 import './PromiseDelivery.css';
-import Goldfish from '../../../../assets/fish/goldfish.png'
-import Fishtank from '../../../../assets/fishtank.png'
-import rewardfish from '../../../../assets/fish/rewardfish.png'
-import Expert from '../../../../assets/fish/service-icon-4.png'
-import Delivery from '../../../../assets/fish/service-icon-1.png'
+import Goldfish from '../../../assets/fish/goldfish.png'
+import Fishtank from '../../../assets/fishtank.png'
+import rewardfish from '../../../assets/fish/rewardfish.png'
+import Expert from '../../../assets/fish/service-icon-4.png'
+import Delivery from '../../../assets/fish/service-icon-1.png'
 
 export default function PromiseDelivery() {
   return (

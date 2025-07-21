@@ -1,11 +1,11 @@
-import Fishpole from '../../../../assets/fishpole.png'
-import FishpoleBag from '../../../../assets/fishpole_bag.png'
-import FishTank from '../../../../assets/fishtank.png'
-import decoration from '../../../../assets/cave.png'
-import Foods from '../../../../assets/fish/food/Aqueon-Shrimp-Pellets-Fish-Food.png'
-import Medicine from '../../../../assets/med.png'
-import Fish from '../../../../assets/fishes.png'
-import CoralReefs from '../../../../assets/coral.png'
+import Fishpole from '../../../assets/fishpole.png'
+import FishpoleBag from '../../../assets/fishpole_bag.png'
+import FishTank from '../../../assets/fishtank.png'
+import decoration from '../../../assets/cave.png'
+import Foods from '../../../assets/fish/food/Aqueon-Shrimp-Pellets-Fish-Food.png'
+import Medicine from '../../../assets/med.png'
+import Fish from '../../../assets/fishes.png'
+import CoralReefs from '../../../assets/coral.png'
 
 
 

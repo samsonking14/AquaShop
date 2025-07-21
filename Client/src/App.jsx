@@ -1,10 +1,10 @@
-import Home from './Components/Pages/Home'
-import About from './Components/Pages/About'
-import Shop from './Components/Pages/Shop'
-import Wishlist from './Components/Pages/Wishlist'
-import Contact from './Components/Pages/Contact'
-import FAQ from './Components/Pages/FAQ'
-import Wrong from './Components/Pages/wrong'
+import Home from './Pages/Home'
+import About from './Pages/About'
+import Shop from './Pages/Shop'
+import Wishlist from './Pages/Wishlist'
+import Contact from './Pages/Contact'
+import FAQ from './Pages/FAQ'
+import Wrong from './Pages/wrong'
 
 function App() {
   return (

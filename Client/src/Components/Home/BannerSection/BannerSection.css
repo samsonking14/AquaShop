@@ -2,7 +2,8 @@
 
 .BannerCollectionSection {
   height: 40vh;
-  background-color: #fff;
+  background-color: #f6f8fb;
+  padding: 50px 0px;
 }
 
 .BannerCollectionSection h3 {
@@ -32,14 +33,21 @@
   height: 200px;
   background-color: aqua;
 }
+
+/* Banner 1 */
+
 .collect-items1 {
-  width: 280px;
-  height: 200px;
+  width: 290px;
+  height: 230px;
   background: linear-gradient(45deg, #856ebf, #baabe8);
+  box-shadow: 0px 0px 6px rgb(0, 0, 0, 0.2);
   border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.collect-items1 > .right-item1 {
+.collect-items1>.right-item1 {
   width: 50%;
   height: 100%;
   display: flex;
@@ -48,24 +56,28 @@
   flex-direction: column;
   text-align: center;
 }
-.collect-items1 > .right-item1 > span {
+
+.collect-items1>.right-item1>span {
   color: #fff;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
 }
-.collect-items1 > .right-item1 > h1 {
+
+.collect-items1>.right-item1>h1 {
   color: #fff;
   font-weight: 900;
   font-size: 40px;
 }
-.collect-items1 > .right-item1 > h1 > span {
+
+.collect-items1>.right-item1>h1>span {
   color: #fff;
   text-transform: uppercase;
   font-weight: 900;
   font-size: 20px;
 }
-.collect-items1 > .right-item1 a {
+
+.collect-items1>.right-item1 a {
   color: #fff;
   text-transform: uppercase;
   font-weight: 900;
@@ -73,15 +85,47 @@
   padding: 10px 20px;
   font-size: 14px;
   border-radius: 50px;
+  
 }
+.collect-items1>.right-item1 a:hover {
+  background-color: #E0F7FA;
+    color: #003B73;
+    transform: scale(1.05);  
+}
+
+.left-item1 img {
+  width: 120px;
+  object-fit: cover;
+}
+
+.left-item2 img {
+  width: 120px;
+  object-fit: cover;
+}
+
+.left-item3 img {
+  width: 120px;
+  object-fit: cover;
+}
+
+.left-item4 img {
+  width: 120px;
+  object-fit: cover;
+}
+
+/* Banner 2 */
 .collect-items2 {
-  width: 280px;
-  height: 200px;
-  background: linear-gradient(45deg, #856ebf, #baabe8);
+  width: 290px;
+  height: 230px;
+  background: linear-gradient(45deg, #017FAF, #5298BC);
+  box-shadow: 0px 0px 6px rgb(0, 0, 0, 0.2);
   border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.collect-items2 > .right-item2 {
+.collect-items2>.right-item2 {
   width: 50%;
   height: 100%;
   display: flex;
@@ -90,24 +134,28 @@
   flex-direction: column;
   text-align: center;
 }
-.collect-items2 > .right-item2 > span {
+
+.collect-items2>.right-item2>span {
   color: #fff;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
 }
-.collect-items2 > .right-item2 > h1 {
+
+.collect-items2>.right-item2>h1 {
   color: #fff;
   font-weight: 900;
   font-size: 40px;
 }
-.collect-items2 > .right-item2 > h1 > span {
+
+.collect-items2>.right-item2>h1>span {
   color: #fff;
   text-transform: uppercase;
   font-weight: 900;
   font-size: 20px;
 }
-.collect-items2 > .right-item2 a {
+
+.collect-items2>.right-item2 a {
   color: #fff;
   text-transform: uppercase;
   font-weight: 900;
@@ -116,14 +164,21 @@
   font-size: 14px;
   border-radius: 50px;
 }
+
+/* Banner 3 */
+
 .collect-items3 {
-  width: 280px;
-  height: 200px;
-  background: linear-gradient(45deg, #856ebf, #baabe8);
+  width: 290px;
+  height: 230px;
+  background: linear-gradient(45deg, #E7BC56, #e4c57b);
+  box-shadow: 0px 0px 6px rgb(0, 0, 0, 0.2);
   border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.collect-items3 > .right-item3 {
+.collect-items3>.right-item3 {
   width: 50%;
   height: 100%;
   display: flex;
@@ -132,24 +187,28 @@
   flex-direction: column;
   text-align: center;
 }
-.collect-items3 > .right-item3 > span {
+
+.collect-items3>.right-item3>span {
   color: #fff;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
 }
-.collect-items3 > .right-item3 > h1 {
+
+.collect-items3>.right-item3>h1 {
   color: #fff;
   font-weight: 900;
   font-size: 40px;
 }
-.collect-items3 > .right-item3 > h1 > span {
+
+.collect-items3>.right-item3>h1>span {
   color: #fff;
   text-transform: uppercase;
   font-weight: 900;
   font-size: 20px;
 }
-.collect-items3 > .right-item3 a {
+
+.collect-items3>.right-item3 a {
   color: #fff;
   text-transform: uppercase;
   font-weight: 900;
@@ -158,14 +217,20 @@
   font-size: 14px;
   border-radius: 50px;
 }
+
+/* Banner 4 */
 .collect-items4 {
-  width: 280px;
-  height: 200px;
-  background: linear-gradient(45deg, #856ebf, #baabe8);
+  width: 290px;
+  height: 230px;
+  background: linear-gradient(45deg, #9B8F7F, #9B8F7F);
+  box-shadow: 0px 0px 6px rgb(0, 0, 0, 0.2);
   border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.collect-items4 > .right-item4 {
+.collect-items4>.right-item4 {
   width: 50%;
   height: 100%;
   display: flex;
@@ -174,24 +239,28 @@
   flex-direction: column;
   text-align: center;
 }
-.collect-items4 > .right-item4 > span {
+
+.collect-items4>.right-item4>span {
   color: #fff;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
 }
-.collect-items4 > .right-item4 > h1 {
+
+.collect-items4>.right-item4>h1 {
   color: #fff;
   font-weight: 900;
   font-size: 40px;
 }
-.collect-items4 > .right-item4 > h1 > span {
+
+.collect-items4>.right-item4>h1>span {
   color: #fff;
   text-transform: uppercase;
   font-weight: 900;
   font-size: 20px;
 }
-.collect-items4 > .right-item4 a {
+
+.collect-items4>.right-item4 a {
   color: #fff;
   text-transform: uppercase;
   font-weight: 900;

@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import "./Header.css";
-import logo from "../../../assets/AQualogo.png";
-import searchIcon from "../../../assets/search.png";
-import Wishlist from "../../../assets/wishlist.png";
-import Cart from "../../../assets/fish.png";
-import Login from "../../../assets/login.png";
-import { useCart } from "../Home/Products/AddToCart";
+import logo from "../../assets/AQualogo.png";
+import searchIcon from "../../assets/search.png";
+import Wishlist from "../../assets/wishlist.png";
+import Cart from "../../assets/fish.png";
+import Login from "../../assets/login.png";
+import { useCart } from "../Home/Products/AddToCart.jsx";
 import data from "../Home/Products/data.jsx";  
 
 export default function Header({ setQuery }) {
@@ -84,12 +84,12 @@ export default function Header({ setQuery }) {
 
           {/* icons */}
           <div className="user-icons">
-            <a href="#"><img src={Wishlist} alt="" /></a>
+            <a href="#"><img className="wishlist" src={Wishlist} alt="" /></a>
             <a href="#" className="cart-container">
               <img className="cart-icon" src={Cart} alt="cart" />
               <span className="cart-count">{cartItems.length}</span>
             </a>
-            <a href="#"><img src={Login} alt="" /></a>
+            <a href="#"><img className="loginlogo" src={Login} alt="" /></a>
           </div>
         </div>
       </header>
