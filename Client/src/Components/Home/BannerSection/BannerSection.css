@@ -1,7 +1,7 @@
 /* banner-collection-section */
 
 .BannerCollectionSection {
-  height: 40vh;
+  height: 35vh;
   background-color: #f6f8fb;
   padding: 50px 0px;
 }
@@ -10,6 +10,7 @@
   font-size: 20px;
   padding-left: 190px;
   text-decoration: underline;
+  text-transform: uppercase;
 }
 
 .collection-list-items {
@@ -85,7 +86,7 @@
   padding: 10px 20px;
   font-size: 14px;
   border-radius: 50px;
-  
+  transition: 0.5s all;  
 }
 .collect-items1>.right-item1 a:hover {
   background-color: #E0F7FA;
@@ -163,6 +164,12 @@
   padding: 10px 20px;
   font-size: 14px;
   border-radius: 50px;
+  transition: 0.5s all;
+}
+.collect-items2>.right-item2 a:hover {
+  background-color: #E0F7FA;
+    color: #003B73;
+    transform: scale(1.05);  
 }
 
 /* Banner 3 */
@@ -216,6 +223,12 @@
   padding: 10px 20px;
   font-size: 14px;
   border-radius: 50px;
+  transition: 0.5s all;
+}
+.collect-items3>.right-item3 a:hover {
+  background-color: #E0F7FA;
+    color: #003B73;
+    transform: scale(1.05);  
 }
 
 /* Banner 4 */
@@ -268,4 +281,10 @@
   padding: 10px 20px;
   font-size: 14px;
   border-radius: 50px;
+  transition: 0.5s all;
+}
+.collect-items4>.right-item4 a:hover {
+  background-color: #E0F7FA;
+    color: #003B73;
+    transform: scale(1.05);  
 }

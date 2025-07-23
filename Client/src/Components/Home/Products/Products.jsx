@@ -58,7 +58,6 @@ export default function Products() {
                   <span className="review-count">
                     ({formatCount(reviewCount || 0)} reviews)
                   </span>
-
                 </div>
                 <button
                   className="AddToCart"

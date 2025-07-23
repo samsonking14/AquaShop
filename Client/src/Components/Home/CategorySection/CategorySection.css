@@ -1,6 +1,6 @@
 /* categories-section */
 .categories-section {
-    height: 35vh;
+    height: 30vh;
     background-color: #fff;
     padding: 50px 0px;
 } 
@@ -16,12 +16,13 @@
     font-size: 20px;
     padding-left: 190px;
     text-decoration: underline;
+    text-transform: uppercase;
 }
 
 .list-items {
     width: 100%;
     display: flex;
-    gap: 25px;
+    gap: 55px;
     padding-top: 40px;
     align-items: center;
     justify-content: center;

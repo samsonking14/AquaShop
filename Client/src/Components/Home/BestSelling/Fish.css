@@ -1,0 +1,106 @@
+.FishSection {
+    width: 100%;
+    height: 60vh;
+    background: linear-gradient(240deg, #00c6ff, #0072ff);
+    padding: 50px 0px;
+}
+
+.FishHead {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+}
+
+.FishHead h3 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 24px;
+    text-align: left;
+    text-decoration: underline;
+    padding-left: 190px;
+}
+
+.Fishcollection {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: scroll;    
+}
+.Fishcollection::-webkit-scrollbar {
+  display: none;
+}
+
+.FishescollectCard {
+    width: 350px;
+    height: 450px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.FishescollectCard:hover {
+    transform: scale(1.05);
+}
+
+.FishImgContain img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+
+.FishContent h4 {
+    padding: 5px 0px 0px 10px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.FishContent p {
+    padding: 5px 0px 0px 10px;
+    font-size: 14px;
+    background-color: #fff;
+    width: 35%;
+    border-radius: 0px 10px 10px 0px;
+    color: #4f03ff;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.reviewsSystem {
+    display: flex;
+    align-items: center;
+    padding: 5px 0px 10px 10px;
+    gap: 5px;
+}
+
+.review-count {
+    font-size: 14px;
+    color: #fff;
+}
+
+.AddToCart {
+    width: 100%;
+    height: 40px;
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    display: none;
+}
+
+.FishescollectCard:hover .AddToCart {
+    display: block;
+}
+
+.AddToCart:hover {
+    background-color: #005bb5;
+}

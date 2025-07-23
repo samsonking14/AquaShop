@@ -19,6 +19,7 @@ export default function BannerSection() {
           <h3>Offers On:</h3>
           <div className="collection-list-items">
             <div className="collection-list">
+
               <div className="collect-items1">
                 <div className="right-item1">
                   <span>free shipping Betta Fish</span>
@@ -33,6 +34,7 @@ export default function BannerSection() {
                   <img src={betaFish} alt="" />
                 </div>
               </div>
+              
               <div className="collect-items2">
                 <div className="right-item2">
                   <span>free shipping Foods</span>

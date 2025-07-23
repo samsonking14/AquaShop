@@ -7,7 +7,7 @@ import BannerSection from '../Components/Home/BannerSection/BannerSection';
 import Product from '../Components/Home/Products/Products';
 import { CartProvider } from '../Components/Home/Products/AddToCart';
 import Advertsement from '../Components/Home/Advertsement/Advertsement';
-
+import Fish from '../Components/Home/BestSelling/Fish.jsx';
 
 
 export default function Home() {
@@ -23,6 +23,7 @@ export default function Home() {
         <BannerSection />
         <Product />
         <Advertsement />
+        <Fish />
       </div>
     </CartProvider>
   );

@@ -11,15 +11,11 @@ import ToolKit from '../../../assets/fish/tank/tool kit 1300.png';
 
 
 
-
-
-
-
 const data = [
   {
     id: 1,
     title: "Fish Pole",
-    price: 799,
+    price: 699,
     image: fishpole,
     category: "Sales",
     rating: 4.5,
