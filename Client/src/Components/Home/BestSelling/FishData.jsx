@@ -1,103 +1,1566 @@
-import fishpole from "../../../assets/fish/hunt/fishpole.png";
-import fishpole2 from "../../../assets/fish/hunt/fishpole2.png";
-import bettaFish from '../../../assets/fish/fish/Betta Fish.png';
-import FishFood from '../../../assets/fish/Foods_Banner.png';
-import Boat from '../../../assets/fish/Decoration_Banner.png';
-import FishTank from '../../../assets/fish/tank/aqua 20k.png';
-import FishBowl from '../../../assets/fish/tank/bowl.png';
-import FishStone from '../../../assets/fish/tank/stone 160.png';
-import TitanicDec from '../../../assets/fish/tank/titanic dec 3100.png';
-import ToolKit from '../../../assets/fish/tank/tool kit 1300.png';
+
+
+import fish1 from '../../../assets/fish/fish/Adolfo s cory.png'
+import fish2 from '../../../assets/fish/fish/Adonis tetra.png'
+import fish3 from '../../../assets/fish/fish/African peacock cichlid.png'
+import fish4 from '../../../assets/fish/fish/albino bristlenose fish.png'
+import fish5 from '../../../assets/fish/fish/Archerfish.png'
+import fish6 from '../../../assets/fish/fish/Atlantic mudskipper.png'
+import fish7 from '../../../assets/fish/fish/Auratus cichlid.png'
+import fish8 from '../../../assets/fish/fish/Australian rainbowfish.png'
+import fish9 from '../../../assets/fish/fish/Azureus cichlid.png'
+import fish10 from '../../../assets/fish/fish/Barb - gold.png'
+import fish11 from '../../../assets/fish/fish/Barb - rosy.png'
+import fish12 from '../../../assets/fish/fish/Betta Fish.png'
+import fish13 from '../../../assets/fish/fish/black moscow guppy(1).png'
+import fish14 from '../../../assets/fish/fish/black moscow guppy.png'
+import fish15 from '../../../assets/fish/fish/Black neon tetra.png'
+import fish16 from '../../../assets/fish/fish/Black Phantom Tetra.png'
+import fish17 from '../../../assets/fish/fish/Black Ruby Barb.png'
+import fish18 from '../../../assets/fish/fish/Black Skirt Tetra.png'
+import fish19 from '../../../assets/fish/fish/Black-banded leporinus.png'
+import fish20 from '../../../assets/fish/fish/Blind cavefish.png'
+import fish21 from '../../../assets/fish/fish/Blood parrot cichlid.png'
+import fish22 from '../../../assets/fish/fish/Blue gourami - albino morph.png'
+import fish23 from '../../../assets/fish/fish/Blue gourami - cosby hybrid.png'
+import fish24 from '../../../assets/fish/fish/Blue gourami - traditional color.png'
+import fish25 from '../../../assets/fish/fish/blue rainbow fish.png'
+import fish26 from '../../../assets/fish/fish/boesemans rainbow fish.png'
+import fish27 from '../../../assets/fish/fish/bristlenose fish.png'
+import fish28 from '../../../assets/fish/fish/Bronze cory.png'
+import fish29 from '../../../assets/fish/fish/Buenos Aires tetra.png'
+import fish30 from '../../../assets/fish/fish/Catfish - upside down.png'
+import fish31 from '../../../assets/fish/fish/cherry barb.png'
+import fish32 from '../../../assets/fish/fish/chinese algae eater.png'
+import fish33 from '../../../assets/fish/fish/cichild fish.png'
+import fish34 from '../../../assets/fish/fish/Cichlid - five-bar.png'
+import fish35 from '../../../assets/fish/fish/Cichlid - purple.png'
+import fish36 from '../../../assets/fish/fish/Cichlid - Six-bar.png'
+import fish37 from '../../../assets/fish/fish/Clown loach.png'
+import fish38 from '../../../assets/fish/fish/cobra guppy.png'
+import fish39 from '../../../assets/fish/fish/common molly.png'
+import fish40 from '../../../assets/fish/fish/Congo Tetra.png'
+import fish41 from '../../../assets/fish/fish/cory catfish.png'
+import fish42 from '../../../assets/fish/fish/Danio  pearl.png'
+import fish43 from '../../../assets/fish/fish/Debauwi catfish.png'
+import fish44 from '../../../assets/fish/fish/Deepwater haplochromis.png'
+import fish45 from '../../../assets/fish/fish/Denison s flying fox.png'
+import fish46 from '../../../assets/fish/fish/discus fish.png'
+import fish47 from '../../../assets/fish/fish/Dojo loach.png'
+import fish48 from '../../../assets/fish/fish/Dovii loach.png'
+import fish49 from '../../../assets/fish/fish/Dragonfish.png'
+import fish50 from '../../../assets/fish/fish/Dusky piranha.png'
+import fish51 from '../../../assets/fish/fish/Dwarf croaking gourami.png'
+import fish52 from '../../../assets/fish/fish/Dwarf Gourami.png'
+import fish53 from '../../../assets/fish/fish/Dwarf pencilfish.png'
+import fish54 from '../../../assets/fish/fish/Dwarf snakehead.png'
+import fish55 from '../../../assets/fish/fish/Eartheater.png'
+import fish56 from '../../../assets/fish/fish/Eastern mudminnow.png'
+import fish57 from '../../../assets/fish/fish/Edible gourami.png'
+import fish58 from '../../../assets/fish/fish/Egyptian mouthbrooder.png'
+import fish59 from '../../../assets/fish/fish/Eight-barb loach.png'
+import fish60 from '../../../assets/fish/fish/Electric catfish.png'
+import fish61 from '../../../assets/fish/fish/Electric yellow haplochromis.png'
+import fish62 from '../../../assets/fish/fish/Elegant rasbora.png'
+import fish63 from '../../../assets/fish/fish/Elephant-nose.png'
+import fish64 from '../../../assets/fish/fish/emperor tetra care guide.png'
+import fish65 from '../../../assets/fish/fish/Fairy cichlid.png'
+import fish66 from '../../../assets/fish/fish/False bumblebee catfish.png'
+import fish67 from '../../../assets/fish/fish/Fathead bichir.png'
+import fish68 from '../../../assets/fish/fish/Fighting fish.png'
+import fish69 from '../../../assets/fish/fish/Figure eight puffer.png'
+import fish70 from '../../../assets/fish/fish/Five-stripe lamprologus.png'
+import fish71 from '../../../assets/fish/fish/flame tetra.png'
+import fish72 from '../../../assets/fish/fish/german RamBlue.png'
+import fish73 from '../../../assets/fish/fish/Ghost Shrimp.png'
+import fish74 from '../../../assets/fish/fish/Glowlight fish.png'
+import fish75 from '../../../assets/fish/fish/Gourami - blue.png'
+import fish76 from '../../../assets/fish/fish/Gourami - gold.png'
+import fish77 from '../../../assets/fish/fish/Gourami - kissing.png'
+import fish78 from '../../../assets/fish/fish/Gourami - leeri.png'
+import fish79 from '../../../assets/fish/fish/Gourami - marbeled.png'
+import fish80 from '../../../assets/fish/fish/Gourami - moonlight.png'
+import fish81 from '../../../assets/fish/fish/Gourami - opaline.png'
+import fish82 from '../../../assets/fish/fish/Gourami - three spot.png'
+import fish83 from '../../../assets/fish/fish/Hachetfish.png'
+import fish84 from '../../../assets/fish/fish/Haitian cichlid.png'
+import fish85 from '../../../assets/fish/fish/half black guppy.png'
+import fish86 from '../../../assets/fish/fish/Hampala barb.png'
+import fish87 from '../../../assets/fish/fish/harlequin rasbora fish.png'
+import fish88 from '../../../assets/fish/fish/Harlequin shark.png'
+import fish89 from '../../../assets/fish/fish/Heterotis bonytongue.png'
+import fish90 from '../../../assets/fish/fish/Hi-fin banded shark.png'
+import fish91 from '../../../assets/fish/fish/Jack Dempsey cichlid.png'
+import fish92 from '../../../assets/fish/fish/Jae barb.png'
+import fish93 from '../../../assets/fish/fish/Jaguar catfish.png'
+import fish94 from '../../../assets/fish/fish/Jelly bean tetra.png'
+import fish95 from '../../../assets/fish/fish/Jewel cichlid.png'
+import fish96 from '../../../assets/fish/fish/Johanni mbuna cichlid.png'
+import fish97 from '../../../assets/fish/fish/Keyhole cichlid.png'
+import fish98 from '../../../assets/fish/fish/Kribensis cichlid.png'
+import fish99 from '../../../assets/fish/fish/kuhili loach.png'
+import fish100 from '../../../assets/fish/fish/Labidochromis sp Yellow cichlid.png'
+import fish101 from '../../../assets/fish/fish/mango platy.png'
+import fish102 from '../../../assets/fish/fish/Marigold lyretail swordtail.png'
+import fish103 from '../../../assets/fish/fish/Melanotaenia splendida tatei.png'
+import fish104 from '../../../assets/fish/fish/mickey mouse platy.png'
+import fish105 from '../../../assets/fish/fish/mixedguppie fish.png'
+import fish106 from '../../../assets/fish/fish/nandus fish.png'
+import fish107 from '../../../assets/fish/fish/Needle fin eater.png'
+import fish108 from '../../../assets/fish/fish/Needlefish.png'
+import fish109 from '../../../assets/fish/fish/Neon tetra - black.png'
+import fish110 from '../../../assets/fish/fish/Nigerian red krib.png'
+import fish111 from '../../../assets/fish/fish/Nile-puffer.png'
+import fish112 from '../../../assets/fish/fish/Nyerere s Victoria cichlid.png'
+import fish113 from '../../../assets/fish/fish/Obliquidens hap.png'
+import fish114 from '../../../assets/fish/fish/Obscure-snakehead.png'
+import fish115 from '../../../assets/fish/fish/Ocellated freshwater stingray.png'
+import fish116 from '../../../assets/fish/fish/Ocellated synodontis.png'
+import fish117 from '../../../assets/fish/fish/Ocellated synodontis.png'
+import fish118 from '../../../assets/fish/fish/Opaline gourami.png'
+import fish119 from '../../../assets/fish/fish/oscar fish.png'
+import fish120 from '../../../assets/fish/fish/Oxeye herring.png'
+import fish121 from '../../../assets/fish/fish/Palembang-puffer.png'
+import fish122 from '../../../assets/fish/fish/Panda Corydoras.png'
+import fish123 from '../../../assets/fish/fish/Parrot-blood.png'
+import fish124 from '../../../assets/fish/fish/pea buffer.png'
+import fish125 from '../../../assets/fish/fish/pearl gourami.png'
+import fish126 from '../../../assets/fish/fish/pencil fish.png'
+import fish127 from '../../../assets/fish/fish/platium red big ear guppy.png'
+import fish128 from '../../../assets/fish/fish/Rainbowfish.png'
+import fish129 from '../../../assets/fish/fish/Rasbora-red.png'
+import fish130 from '../../../assets/fish/fish/red moaic guppy.png'
+import fish131 from '../../../assets/fish/fish/red widow tetra.png'
+import fish132 from '../../../assets/fish/fish/Red-eye-tetra.png'
+import fish133 from '../../../assets/fish/fish/Rosy barb.png'
+import fish134 from '../../../assets/fish/fish/Serpae Tetra Faucon.png'
+import fish135 from '../../../assets/fish/fish/siamese alga eater fish.png'
+import fish136 from '../../../assets/fish/fish/Silver dollar - Metynnis argenteus.png'
+import fish137 from '../../../assets/fish/fish/swordtail fish.png'
+import fish138 from '../../../assets/fish/fish/Tetra - black widow.png'
+import fish139 from '../../../assets/fish/fish/Tetra - white skirt.png'
+import fish140 from '../../../assets/fish/fish/tiger barb.png'
+import fish141 from '../../../assets/fish/fish/Uaru cichlid.png'
+import fish142 from '../../../assets/fish/fish/Unicorn fish.png'
+import fish143 from '../../../assets/fish/fish/Vampire-pleco.png'
+import fish144 from '../../../assets/fish/fish/Venustus.png'
+import fish145 from '../../../assets/fish/fish/Violet goby.png'
+import fish146 from '../../../assets/fish/fish/wagtail platy.png'
+import fish147 from '../../../assets/fish/fish/Warmouth.png'
+import fish148 from '../../../assets/fish/fish/West Australian pygmy perch.png'
+import fish149 from '../../../assets/fish/fish/West-African-bichir.png'
+import fish150 from '../../../assets/fish/fish/Whiptailed banjo catfish.png'
+import fish151 from '../../../assets/fish/fish/white cloud mountain minnow.png'
+import fish152 from '../../../assets/fish/fish/Yellow banded moenkhausia.png'
+import fish153 from '../../../assets/fish/fish/Yellow Julie cichlid.png'
+import fish154 from '../../../assets/fish/fish/Yellow-kribensis.png'
+import fish155 from '../../../assets/fish/fish/Zebra Danio.png'
+import fish156 from '../../../assets/fish/fish/Zebra-angel.png'
 
 const FishData = [
     {
-        id: 1,
-        title: "Betta Fish",
+        id: 1001,
+        title: "Adolfo s cory",
         price: 49,
-        image: bettaFish,
+        image: fish1,
+        category: "Fish",
         rating: 5,
         reviewCount: 1000,
     },
     {
-        id: 1,
-        title: "Fish Pole",
-        price: 699,
-        image: fishpole,
-        category: "Sales",
+        id: 1002,
+        title: "Adonis tetra",
+        price: 69,
+        image: fish2,
+        category: "Fish",
         rating: 4.5,
         reviewCount: 112,
       },
       {
-        id: 3,
-        title: "Fish Food",
+        id: 1003,
+        title: "African peacock cichlid",
         price: 129,
-        image: FishFood,
-        category: "Featured",
+        image: fish3,
+        category: "Fish",
         rating: 4,
         reviewCount: 1200,
       },
       {
-        id: 4,
-        title: "Boat Decoration",
+        id: 1004,
+        title: "albino bristlenose fish",
         price: 99,
-        image: Boat,
-        category: "Best Seller",
+        image: fish4,
+        category: "Fish",
         rating: 4.5,
         reviewCount: 1500,
       },
       {
-        id: 5,
-        title: "Fish Bowl",
-        price: 299,
-        image: FishBowl,
-        category: "Sales",
+        id: 1005,
+        title: "Archerfish",
+        price: 29,
+        image: fish5,
+        category: "Fish",
         rating: 4.5,
         reviewCount: 1102,
       },
       {
-        id: 6,
-        title: "Fish Tank",
-        price: 1249,
-        image: FishTank,
-        category: "Best Seller",
+        id: 1006,
+        title: "Atlantic mudskipper",
+        price: 149,
+        image: fish6,
+        category: "Fish",
         rating: 4.5,
         reviewCount: 1000,
       },
       {
-        id: 7,
-        title: "Fish Stone",
+        id: 1007,
+        title: "Auratus cichlid",
         price: 49,
-        image: FishStone,
-        category: "Sales",
+        image: fish7,
+        category: "Fish",
         rating: 4,
         reviewCount: 1200,
       },
       {
-        id: 8,
-        title: "Fish Rod",
+        id: 1008,
+        title: "Australian rainbowfish",
         price: 99,
-        image: fishpole2,
-        category: "Best Seller",
+        image: fish8,
+        category: "Fish",
         rating: 4.5,
         reviewCount: 1500,
       },
       {
-        id: 9,
-        title: "Tool Kit",
-        price: 449,
-        image: ToolKit,
-        category: "Featured",
+        id: 1009,
+        title: "Azureus cichlid",
+        price: 49,
+        image: fish9,
+        category: "Fish",
         rating: 4,
         reviewCount: 1200,
       },
       {
-        id: 10,
-        title: "Titanic Decoration",
+        id: 1010,
+        title: "Barb - gold",
         price: 199,
-        image: TitanicDec,
-        category: "Best Seller",
+        image: fish10,
+        category: "Fish",
         rating: 4.5,
         reviewCount: 1500,
       },
+      {
+    id: 1011,
+    title: "Barb - rosy",
+    price: 99,
+    image: fish11,
+    category: "Fish",
+    rating: 4,
+    reviewCount: 533,
+  },
+  {
+    id: 1012,
+    title: "Betta Fish",
+    price: 149,
+    image: fish12,
+    category: "Fish",
+    rating: 3.5,
+    reviewCount: 536,
+  },
+  {
+    id: 1013,
+    title: "black moscow guppy",
+    price: 99,
+    image: fish13,
+    category: "Fish",
+    rating: 4,
+    reviewCount: 539,
+  },
+  {
+    id: 1014,
+    title: "black moscow guppy",
+    price: 49,
+    image: fish14,
+    category: "Fish",
+    rating: 5,
+    reviewCount: 542,
+  },
+  {
+    id: 1015,
+    title: "Black neon tetra",
+    price: 69,
+    image: fish15,
+    category: "Fish",
+    rating: 4.5,
+    reviewCount: 545,
+  },
+  {
+    id: 1016,
+    title: "Black Phantom Tetra",
+    price: 349,
+    image: fish16,
+    category: "Fish",
+    rating: 2,
+    reviewCount: 548,
+  },
+  {
+    id: 1017,
+    title: "Black Ruby Barb",
+    price: 99,
+    image: fish17,
+    category: "Fish",
+    rating: 3,
+    reviewCount: 551,
+  },
+  {
+    id: 1018,
+    title: "Black Skirt Tetra",
+    price: 44,
+    image: fish18,
+    category: "Fish",
+    rating: 4,
+    reviewCount: 554,
+  },
+  {
+    id: 1019,
+    title: "Black-banded leporinus",
+    price: 499,
+    image: fish19,
+    category: "Fish",
+    rating: 5,
+    reviewCount: 557,
+  },
+  {
+    id: 1020,
+    title: "Blind cave fish",
+    price: 49,
+    image: fish20,
+    category: "Fish",
+    rating: 4,
+    reviewCount: 560,
+  },
+  {
+    id: 1021,
+    title: "Blood parrot cichlid",
+    price: 99,
+    image: fish21,
+    category: "Fish",
+    rating: 3.5,
+    reviewCount: 563,
+  },
+  {
+    id: 1022,
+    title: "Fish 22",
+    price: 149,
+    image: fish22,
+    category: "Fish",
+    rating: 3,
+    reviewCount: 566,
+  },
+  {
+    id: 1023,
+    title: "Fish 23",
+    price: 199,
+    image: fish23,
+    category: "Fish",
+    rating: 4,
+    reviewCount: 569,
+  },
+  {
+    id: 1024,
+    title: "Fish 24",
+    price: 249,
+    image: fish24,
+    category: "Fish",
+    rating: 5,
+    reviewCount: 572,
+  },
+  {
+    id: 1025,
+    title: "Fish 25",
+    price: 299,
+    image: fish25,
+    category: "Fish",
+    rating: 1,
+    reviewCount: 575,
+  },
+  {
+    id: 1026,
+    title: "Fish 26",
+    price: 349,
+    image: fish26,
+    category: "Fish",
+    rating: 2,
+    reviewCount: 578,
+  },
+  {
+    id: 1027,
+    title: "Fish 27",
+    price: 399,
+    image: fish27,
+    category: "Fish",
+    rating: 3,
+    reviewCount: 581,
+  },
+  {
+    id: 1028,
+    title: "Fish 28",
+    price: 449,
+    image: fish28,
+    category: "Fish",
+    rating: 4,
+    reviewCount: 584,
+  },
+  {
+    id: 1029,
+    title: "Fish 29",
+    price: 499,
+    image: fish29,
+    category: "Fish",
+    rating: 5,
+    reviewCount: 587,
+  },
+  {
+    id: 1030,
+    title: "Fish 30",
+    price: 49,
+    image: fish30,
+    category: "Fish",
+    rating: 1,
+    reviewCount: 590,
+  },
+  {
+    id: 1031,
+    title: "Fish 31",
+    price: 99,
+    image: fish31,
+    category: "Fish",
+    rating: 2,
+    reviewCount: 593,
+  },
+  {
+    id: 1032,
+    title: "Fish 32",
+    price: 149,
+    image: fish32,
+    category: "Fish",
+    rating: 3,
+    reviewCount: 596,
+  },
+  {
+    id: 1033,
+    title: "Fish 33",
+    price: 199,
+    image: fish33,
+    category: "Fish",
+    rating: 4,
+    reviewCount: 599,
+  },
+  {
+    id: 1034,
+    title: "Fish 34",
+    price: 249,
+    image: fish34,
+    category: "Fish",
+    rating: 5,
+    reviewCount: 602,
+  },
+  {
+    id: 1035,
+    title: "Fish 35",
+    price: 299,
+    image: fish35,
+    category: "Fish",
+    rating: 1,
+    reviewCount: 605,
+  },
+  {
+    id: 1036,
+    title: "Fish 36",
+    price: 349,
+    image: fish36,
+    category: "Fish",
+    rating: 2,
+    reviewCount: 608,
+  },
+  {
+    id: 1037,
+    title: "Fish 37",
+    price: 399,
+    image: fish37,
+    category: "Fish",
+    rating: 3,
+    reviewCount: 611,
+  },
+  {
+    id: 1038,
+    title: "Fish 38",
+    price: 449,
+    image: fish38,
+    category: "Fish",
+    rating: 4,
+    reviewCount: 614,
+  },
+  {
+    id: 1039,
+    title: "Fish 39",
+    price: 499,
+    image: fish39,
+    category: "Fish",
+    rating: 5,
+    reviewCount: 617,
+  },
+  {
+    id: 1040,
+    title: "Fish 40",
+    price: 49,
+    image: fish40,
+    category: "Fish",
+    rating: 1,
+    reviewCount: 620,
+  },
+  {
+    id: 1041,
+    title: "Fish 41",
+    price: 99,
+    image: fish41,
+    category: "Fish",
+    rating: 2,
+    reviewCount: 623,
+  },
+  {
+    id: 1042,
+    title: "Fish 42",
+    price: 149,
+    image: fish42,
+    category: "Fish",
+    rating: 3,
+    reviewCount: 626,
+  },
+  {
+    id: 1043,
+    title: "Fish 43",
+    price: 199,
+    image: fish43,
+    category: "Fish",
+    rating: 4,
+    reviewCount: 629,
+  },
+  {
+    id: 1044,
+    title: "Fish 44",
+    price: 249,
+    image: fish44,
+    category: "Fish",
+    rating: 5,
+    reviewCount: 632,
+  },
+  {
+    id: 1045,
+    title: "Fish 45",
+    price: 299,
+    image: fish45,
+    category: "Fish",
+    rating: 1,
+    reviewCount: 635,
+  },
+  {
+    id: 1046,
+    title: "Fish 46",
+    price: 349,
+    image: fish46,
+    category: "Fish",
+    rating: 2,
+    reviewCount: 638,
+  },
+  {
+    id: 1047,
+    title: "Fish 47",
+    price: 399,
+    image: fish47,
+    category: "Fish",
+    rating: 3,
+    reviewCount: 641,
+  },
+  {
+    id: 1048,
+    title: "Fish 48",
+    price: 449,
+    image: fish48,
+    category: "Fish",
+    rating: 4,
+    reviewCount: 644,
+  },
+  {
+    id: 1049,
+    title: "Fish 49",
+    price: 499,
+    image: fish49,
+    category: "Fish",
+    rating: 5,
+    reviewCount: 647,
+  },
+  {
+    id: 1050,
+    title: "Fish 50",
+    price: 49,
+    image: fish50,
+    category: "Fish",
+    rating: 1,
+    reviewCount: 650,
+  },
+  {
+    id: 1051,
+    title: "Fish 51",
+    price: 99,
+    image: fish51,
+    category: "Fish",
+    rating: 2,
+    reviewCount: 653,
+  },
+  {
+    id: 1052,
+    title: "Fish 52",
+    price: 149,
+    image: fish52,
+    category: "Fish",
+    rating: 3,
+    reviewCount: 656,
+  },
+  {
+    id: 1053,
+    title: "Fish 53",
+    price: 199,
+    image: fish53,
+    category: "Fish",
+    rating: 4,
+    reviewCount: 659,
+  },
+  {
+    id: 1054,
+    title: "Fish 54",
+    price: 249,
+    image: fish54,
+    category: "Fish",
+    rating: 5,
+    reviewCount: 662,
+  },
+  {
+    id: 1055,
+    title: "Fish 55",
+    price: 299,
+    image: fish55,
+    category: "Fish",
+    rating: 1,
+    reviewCount: 665,
+  },
+  {
+    id: 1056,
+    title: "Fish 56",
+    price: 349,
+    image: fish56,
+    category: "Fish",
+    rating: 2,
+    reviewCount: 668,
+  },
+  {
+    id: 1057,
+    title: "Fish 57",
+    price: 399,
+    image: fish57,
+    category: "Fish",
+    rating: 3,
+    reviewCount: 671,
+  },
+  {
+    id: 1058,
+    title: "Fish 58",
+    price: 449,
+    image: fish58,
+    category: "Fish",
+    rating: 4,
+    reviewCount: 674,
+  },
+  {
+    id: 1059,
+    title: "Fish 59",
+    price: 499,
+    image: fish59,
+    category: "Fish",
+    rating: 5,
+    reviewCount: 677,
+  },
+  {
+    id: 1060,
+    title: "Fish 60",
+    price: 49,
+    image: fish60,
+    category: "Fish",
+    rating: 1,
+    reviewCount: 680,
+  },
+  {
+    id: 1061,
+    title: "Fish 61",
+    price: 99,
+    image: fish61,
+    category: "Fish",
+    rating: 2,
+    reviewCount: 683,
+  },
+  {
+    id: 1062,
+    title: "Fish 62",
+    price: 149,
+    image: fish62,
+    category: "Fish",
+    rating: 3,
+    reviewCount: 686,
+  },
+  {
+    id: 1063,
+    title: "Fish 63",
+    price: 199,
+    image: fish63,
+    category: "Fish",
+    rating: 4,
+    reviewCount: 689,
+  },
+  {
+    id: 1064,
+    title: "Fish 64",
+    price: 249,
+    image: fish64,
+    category: "Fish",
+    rating: 5,
+    reviewCount: 692,
+  },
+  {
+    id: 1065,
+    title: "Fish 65",
+    price: 299,
+    image: fish65,
+    category: "Fish",
+    rating: 1,
+    reviewCount: 695,
+  },
+  {
+    id: 1066,
+    title: "Fish 66",
+    price: 349,
+    image: fish66,
+    category: "Fish",
+    rating: 2,
+    reviewCount: 698,
+  },
+  {
+    id: 1067,
+    title: "Fish 67",
+    price: 399,
+    image: fish67,
+    category: "Fish",
+    rating: 3,
+    reviewCount: 701,
+  },
+  {
+    id: 1068,
+    title: "Fish 68",
+    price: 449,
+    image: fish68,
+    category: "Fish",
+    rating: 4,
+    reviewCount: 704,
+  },
+  {
+    id: 1069,
+    title: "Fish 69",
+    price: 499,
+    image: fish69,
+    category: "Fish",
+    rating: 5,
+    reviewCount: 707,
+  },
+  {
+    id: 1070,
+    title: "Fish 70",
+    price: 49,
+    image: fish70,
+    category: "Fish",
+    rating: 1,
+    reviewCount: 710,
+  },
+  {
+    id: 1071,
+    title: "Fish 71",
+    price: 99,
+    image: fish71,
+    category: "Fish",
+    rating: 2,
+    reviewCount: 713,
+  },
+  {
+    id: 1072,
+    title: "Fish 72",
+    price: 149,
+    image: fish72,
+    category: "Fish",
+    rating: 3,
+    reviewCount: 716,
+  },
+  {
+    id: 1073,
+    title: "Fish 73",
+    price: 199,
+    image: fish73,
+    category: "Fish",
+    rating: 4,
+    reviewCount: 719,
+  },
+  {
+    id: 1074,
+    title: "Fish 74",
+    price: 249,
+    image: fish74,
+    category: "Fish",
+    rating: 5,
+    reviewCount: 722,
+  },
+  {
+    id: 1075,
+    title: "Fish 75",
+    price: 299,
+    image: fish75,
+    category: "Fish",
+    rating: 1,
+    reviewCount: 725,
+  },
+  {
+    id: 1076,
+    title: "Fish 76",
+    price: 349,
+    image: fish76,
+    category: "Fish",
+    rating: 2,
+    reviewCount: 728,
+  },
+  {
+    id: 1077,
+    title: "Fish 77",
+    price: 399,
+    image: fish77,
+    category: "Fish",
+    rating: 3,
+    reviewCount: 731,
+  },
+  {
+    id: 1078,
+    title: "Fish 78",
+    price: 449,
+    image: fish78,
+    category: "Fish",
+    rating: 4,
+    reviewCount: 734,
+  },
+  {
+    id: 1079,
+    title: "Fish 79",
+    price: 499,
+    image: fish79,
+    category: "Fish",
+    rating: 5,
+    reviewCount: 737,
+  },
+  {
+    id: 1080,
+    title: "Fish 80",
+    price: 49,
+    image: fish80,
+    category: "Fish",
+    rating: 1,
+    reviewCount: 740,
+  },
+  {
+    id: 1081,
+    title: "Fish 81",
+    price: 99,
+    image: fish81,
+    category: "Fish",
+    rating: 2,
+    reviewCount: 743,
+  },
+  {
+    id: 1082,
+    title: "Fish 82",
+    price: 149,
+    image: fish82,
+    category: "Fish",
+    rating: 3,
+    reviewCount: 746,
+  },
+  {
+    id: 1083,
+    title: "Fish 83",
+    price: 199,
+    image: fish83,
+    category: "Fish",
+    rating: 4,
+    reviewCount: 749,
+  },
+  {
+    id: 1084,
+    title: "Fish 84",
+    price: 249,
+    image: fish84,
+    category: "Fish",
+    rating: 5,
+    reviewCount: 752,
+  },
+  {
+    id: 1085,
+    title: "Fish 85",
+    price: 299,
+    image: fish85,
+    category: "Fish",
+    rating: 1,
+    reviewCount: 755,
+  },
+  {
+    id: 1086,
+    title: "Fish 86",
+    price: 349,
+    image: fish86,
+    category: "Fish",
+    rating: 2,
+    reviewCount: 758,
+  },
+  {
+    id: 1087,
+    title: "Fish 87",
+    price: 399,
+    image: fish87,
+    category: "Fish",
+    rating: 3,
+    reviewCount: 761,
+  },
+  {
+    id: 1088,
+    title: "Fish 88",
+    price: 449,
+    image: fish88,
+    category: "Fish",
+    rating: 4,
+    reviewCount: 764,
+  },
+  {
+    id: 1089,
+    title: "Fish 89",
+    price: 499,
+    image: fish89,
+    category: "Fish",
+    rating: 5,
+    reviewCount: 767,
+  },
+  {
+    id: 1090,
+    title: "Fish 90",
+    price: 49,
+    image: fish90,
+    category: "Fish",
+    rating: 1,
+    reviewCount: 770,
+  },
+  {
+    id: 1091,
+    title: "Fish 91",
+    price: 99,
+    image: fish91,
+    category: "Fish",
+    rating: 2,
+    reviewCount: 773,
+  },
+  {
+    id: 1092,
+    title: "Fish 92",
+    price: 149,
+    image: fish92,
+    category: "Fish",
+    rating: 3,
+    reviewCount: 776,
+  },
+  {
+    id: 1093,
+    title: "Fish 93",
+    price: 199,
+    image: fish93,
+    category: "Fish",
+    rating: 4,
+    reviewCount: 779,
+  },
+  {
+    id: 1094,
+    title: "Fish 94",
+    price: 249,
+    image: fish94,
+    category: "Fish",
+    rating: 5,
+    reviewCount: 782,
+  },
+  {
+    id: 1095,
+    title: "Fish 95",
+    price: 299,
+    image: fish95,
+    category: "Fish",
+    rating: 1,
+    reviewCount: 785,
+  },
+  {
+    id: 1096,
+    title: "Fish 96",
+    price: 349,
+    image: fish96,
+    category: "Fish",
+    rating: 2,
+    reviewCount: 788,
+  },
+  {
+    id: 1097,
+    title: "Fish 97",
+    price: 399,
+    image: fish97,
+    category: "Fish",
+    rating: 3,
+    reviewCount: 791,
+  },
+  {
+    id: 1098,
+    title: "Fish 98",
+    price: 449,
+    image: fish98,
+    category: "Fish",
+    rating: 4,
+    reviewCount: 794,
+  },
+  {
+    id: 1099,
+    title: "Fish 99",
+    price: 499,
+    image: fish99,
+    category: "Fish",
+    rating: 5,
+    reviewCount: 797,
+  },
+  {
+    id: 1100,
+    title: "Fish 100",
+    price: 49,
+    image: fish100,
+    category: "Fish",
+    rating: 1,
+    reviewCount: 800,
+  },
+  {
+    id: 1101,
+    title: "Fish 101",
+    price: 99,
+    image: fish101,
+    category: "Fish",
+    rating: 2,
+    reviewCount: 803,
+  },
+  {
+    id: 1102,
+    title: "Fish 102",
+    price: 149,
+    image: fish102,
+    category: "Fish",
+    rating: 3,
+    reviewCount: 806,
+  },
+  {
+    id: 1103,
+    title: "Fish 103",
+    price: 199,
+    image: fish103,
+    category: "Fish",
+    rating: 4,
+    reviewCount: 809,
+  },
+  {
+    id: 1104,
+    title: "Fish 104",
+    price: 249,
+    image: fish104,
+    category: "Fish",
+    rating: 5,
+    reviewCount: 812,
+  },
+  {
+    id: 1105,
+    title: "Fish 105",
+    price: 299,
+    image: fish105,
+    category: "Fish",
+    rating: 1,
+    reviewCount: 815,
+  },
+  {
+    id: 1106,
+    title: "Fish 106",
+    price: 349,
+    image: fish106,
+    category: "Fish",
+    rating: 2,
+    reviewCount: 818,
+  },
+  {
+    id: 1107,
+    title: "Fish 107",
+    price: 399,
+    image: fish107,
+    category: "Fish",
+    rating: 3,
+    reviewCount: 821,
+  },
+  {
+    id: 1108,
+    title: "Fish 108",
+    price: 449,
+    image: fish108,
+    category: "Fish",
+    rating: 4,
+    reviewCount: 824,
+  },
+  {
+    id: 1109,
+    title: "Fish 109",
+    price: 499,
+    image: fish109,
+    category: "Fish",
+    rating: 5,
+    reviewCount: 827,
+  },
+  {
+    id: 1110,
+    title: "Fish 110",
+    price: 49,
+    image: fish110,
+    category: "Fish",
+    rating: 1,
+    reviewCount: 830,
+  },
+  {
+    id: 1111,
+    title: "Fish 111",
+    price: 99,
+    image: fish111,
+    category: "Fish",
+    rating: 2,
+    reviewCount: 833,
+  },
+  {
+    id: 1112,
+    title: "Fish 112",
+    price: 149,
+    image: fish112,
+    category: "Fish",
+    rating: 3,
+    reviewCount: 836,
+  },
+  {
+    id: 1113,
+    title: "Fish 113",
+    price: 199,
+    image: fish113,
+    category: "Fish",
+    rating: 4,
+    reviewCount: 839,
+  },
+  {
+    id: 1114,
+    title: "Fish 114",
+    price: 249,
+    image: fish114,
+    category: "Fish",
+    rating: 5,
+    reviewCount: 842,
+  },
+  {
+    id: 1115,
+    title: "Fish 115",
+    price: 299,
+    image: fish115,
+    category: "Fish",
+    rating: 1,
+    reviewCount: 845,
+  },
+  {
+    id: 1116,
+    title: "Fish 116",
+    price: 349,
+    image: fish116,
+    category: "Fish",
+    rating: 2,
+    reviewCount: 848,
+  },
+  {
+    id: 1117,
+    title: "Fish 117",
+    price: 399,
+    image: fish117,
+    category: "Fish",
+    rating: 3,
+    reviewCount: 851,
+  },
+  {
+    id: 1118,
+    title: "Fish 118",
+    price: 449,
+    image: fish118,
+    category: "Fish",
+    rating: 4,
+    reviewCount: 854,
+  },
+  {
+    id: 1119,
+    title: "Fish 119",
+    price: 499,
+    image: fish119,
+    category: "Fish",
+    rating: 5,
+    reviewCount: 857,
+  },
+  {
+    id: 1120,
+    title: "Fish 120",
+    price: 49,
+    image: fish120,
+    category: "Fish",
+    rating: 1,
+    reviewCount: 860,
+  },
+  {
+    id: 1121,
+    title: "Fish 121",
+    price: 99,
+    image: fish121,
+    category: "Fish",
+    rating: 2,
+    reviewCount: 863,
+  },
+  {
+    id: 1122,
+    title: "Fish 122",
+    price: 149,
+    image: fish122,
+    category: "Fish",
+    rating: 3,
+    reviewCount: 866,
+  },
+  {
+    id: 1123,
+    title: "Fish 123",
+    price: 199,
+    image: fish123,
+    category: "Fish",
+    rating: 4,
+    reviewCount: 869,
+  },
+  {
+    id: 1124,
+    title: "Fish 124",
+    price: 249,
+    image: fish124,
+    category: "Fish",
+    rating: 5,
+    reviewCount: 872,
+  },
+  {
+    id: 1125,
+    title: "Fish 125",
+    price: 299,
+    image: fish125,
+    category: "Fish",
+    rating: 1,
+    reviewCount: 875,
+  },
+  {
+    id: 1126,
+    title: "Fish 126",
+    price: 349,
+    image: fish126,
+    category: "Fish",
+    rating: 2,
+    reviewCount: 878,
+  },
+  {
+    id: 1127,
+    title: "Fish 127",
+    price: 399,
+    image: fish127,
+    category: "Fish",
+    rating: 3,
+    reviewCount: 881,
+  },
+  {
+    id: 1128,
+    title: "Fish 128",
+    price: 449,
+    image: fish128,
+    category: "Fish",
+    rating: 4,
+    reviewCount: 884,
+  },
+  {
+    id: 1129,
+    title: "Fish 129",
+    price: 499,
+    image: fish129,
+    category: "Fish",
+    rating: 5,
+    reviewCount: 887,
+  },
+  {
+    id: 1130,
+    title: "Fish 130",
+    price: 49,
+    image: fish130,
+    category: "Fish",
+    rating: 1,
+    reviewCount: 890,
+  },
+  {
+    id: 1131,
+    title: "Fish 131",
+    price: 99,
+    image: fish131,
+    category: "Fish",
+    rating: 2,
+    reviewCount: 893,
+  },
+  {
+    id: 1132,
+    title: "Fish 132",
+    price: 149,
+    image: fish132,
+    category: "Fish",
+    rating: 3,
+    reviewCount: 896,
+  },
+  {
+    id: 1133,
+    title: "Fish 133",
+    price: 199,
+    image: fish133,
+    category: "Fish",
+    rating: 4,
+    reviewCount: 899,
+  },
+  {
+    id: 1134,
+    title: "Fish 134",
+    price: 249,
+    image: fish134,
+    category: "Fish",
+    rating: 5,
+    reviewCount: 902,
+  },
+  {
+    id: 1135,
+    title: "Fish 135",
+    price: 299,
+    image: fish135,
+    category: "Fish",
+    rating: 1,
+    reviewCount: 905,
+  },
+  {
+    id: 1136,
+    title: "Fish 136",
+    price: 349,
+    image: fish136,
+    category: "Fish",
+    rating: 2,
+    reviewCount: 908,
+  },
+  {
+    id: 1137,
+    title: "Fish 137",
+    price: 399,
+    image: fish137,
+    category: "Fish",
+    rating: 3,
+    reviewCount: 911,
+  },
+  {
+    id: 1138,
+    title: "Fish 138",
+    price: 449,
+    image: fish138,
+    category: "Fish",
+    rating: 4,
+    reviewCount: 914,
+  },
+  {
+    id: 1139,
+    title: "Fish 139",
+    price: 499,
+    image: fish139,
+    category: "Fish",
+    rating: 5,
+    reviewCount: 917,
+  },
+  {
+    id: 1140,
+    title: "Fish 140",
+    price: 49,
+    image: fish140,
+    category: "Fish",
+    rating: 1,
+    reviewCount: 920,
+  },
+  {
+    id: 1141,
+    title: "Fish 141",
+    price: 99,
+    image: fish141,
+    category: "Fish",
+    rating: 2,
+    reviewCount: 923,
+  },
+  {
+    id: 1142,
+    title: "Fish 142",
+    price: 149,
+    image: fish142,
+    category: "Fish",
+    rating: 3,
+    reviewCount: 926,
+  },
+  {
+    id: 1143,
+    title: "Fish 143",
+    price: 199,
+    image: fish143,
+    category: "Fish",
+    rating: 4,
+    reviewCount: 929,
+  },
+  {
+    id: 1144,
+    title: "Fish 144",
+    price: 249,
+    image: fish144,
+    category: "Fish",
+    rating: 5,
+    reviewCount: 932,
+  },
+  {
+    id: 1145,
+    title: "Fish 145",
+    price: 299,
+    image: fish145,
+    category: "Fish",
+    rating: 1,
+    reviewCount: 935,
+  },
+  {
+    id: 1146,
+    title: "Fish 146",
+    price: 349,
+    image: fish146,
+    category: "Fish",
+    rating: 2,
+    reviewCount: 938,
+  },
+  {
+    id: 1147,
+    title: "Fish 147",
+    price: 399,
+    image: fish147,
+    category: "Fish",
+    rating: 3,
+    reviewCount: 941,
+  },
+  {
+    id: 1148,
+    title: "Fish 148",
+    price: 449,
+    image: fish148,
+    category: "Fish",
+    rating: 4,
+    reviewCount: 944,
+  },
+  {
+    id: 1149,
+    title: "Fish 149",
+    price: 499,
+    image: fish149,
+    category: "Fish",
+    rating: 5,
+    reviewCount: 947,
+  },
+  {
+    id: 1150,
+    title: "Fish 150",
+    price: 49,
+    image: fish150,
+    category: "Fish",
+    rating: 1,
+    reviewCount: 950,
+  },
+  {
+    id: 1151,
+    title: "Fish 151",
+    price: 99,
+    image: fish151,
+    category: "Fish",
+    rating: 2,
+    reviewCount: 953,
+  },
+  {
+    id: 1152,
+    title: "Fish 152",
+    price: 149,
+    image: fish152,
+    category: "Fish",
+    rating: 3,
+    reviewCount: 956,
+  },
+  {
+    id: 1153,
+    title: "Fish 153",
+    price: 199,
+    image: fish153,
+    category: "Fish",
+    rating: 4,
+    reviewCount: 959,
+  },
+  {
+    id: 1154,
+    title: "Fish 154",
+    price: 249,
+    image: fish154,
+    category: "Fish",
+    rating: 5,
+    reviewCount: 962,
+  },
+  {
+    id: 1155,
+    title: "Fish 155",
+    price: 299,
+    image: fish155,
+    category: "Fish",
+    rating: 1,
+    reviewCount: 965,
+  },
+  {
+    id: 1156,
+    title: "Fish 156",
+    price: 349,
+    image: fish156,
+    category: "Fish",
+    rating: 2,
+    reviewCount: 968,
+  },
 ];
 export default FishData;
