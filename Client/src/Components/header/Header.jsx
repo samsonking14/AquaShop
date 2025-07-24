@@ -7,6 +7,7 @@ import Cart from "../../assets/fish.png";
 import Login from "../../assets/login.png";
 import { useCart } from "../Home/Products/AddToCart.jsx";
 import data from "../Home/Products/data.jsx";  
+import { Link } from 'react-router-dom'
 
 export default function Header({ setQuery }) {
   const [scrolled, setScrolled] = useState(false);
@@ -43,11 +44,11 @@ export default function Header({ setQuery }) {
 
           {/* navbar */}
           <nav>
-            <a href="#">Home</a>
-            <a href="#">Shop</a>
-            <a href="#">About</a>
-            <a href="#">Track</a>
-            <a href="#">Contact</a>
+            <Link to='/'>Home</Link>
+            <Link to='/Shop'>Shop</Link>
+            <Link to='/About'>About</Link>
+            <Link to='/Track'>Track</Link>
+            <Link to='/Contact'>Contact</Link>
           </nav>
 
           {/* search box */}

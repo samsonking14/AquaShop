@@ -5,17 +5,24 @@ import Wishlist from './Pages/Wishlist'
 import Contact from './Pages/Contact'
 import FAQ from './Pages/FAQ'
 import Wrong from './Pages/wrong'
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <>
-    <Home />
-    <Shop />
-    <About />
-    <Contact />
-    <FAQ />
-    <Wrong />
-    <Wishlist />        
+      <BrowserRouter>
+        <Routes>
+
+          <Route path='/' element={<Home />} />
+          <Route path='/Shop' element={<Shop />} />
+          <Route path='/About' element={<About />} />
+          <Route path='/Contact' element={<Contact />} />
+          <Route path='/FAQ' element={<FAQ />} />
+          <Route path='/Wrong' element={<Wrong />} />
+          <Route path='Wishlist/' element={<Wishlist />} />
+
+        </Routes>
+      </BrowserRouter>
+
     </>
   )
 }

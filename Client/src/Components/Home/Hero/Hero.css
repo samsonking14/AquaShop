@@ -40,11 +40,11 @@
     font-family: poppins, sans-serif;
 }
 
-.Hero-section .right button {
+.Hero-section .right .spanbtn{
     padding: 10px 20px;
     border-radius: 50px;
     border: 2px solid #A084E8;
-    width: 23%;
+    width: 25%;
     font-size: 25px;
     font-family: poppins, sans-serif;
     font-weight: 700;
@@ -55,9 +55,9 @@
     cursor: pointer;
 }
 
-.Hero-section .right button:hover {
+.Hero-section .right .spanbtn:hover {
     background-color: #E0F7FA;
-    color: #003B73;
+    color: #000;
     transform: scale(1.05);
 }
 

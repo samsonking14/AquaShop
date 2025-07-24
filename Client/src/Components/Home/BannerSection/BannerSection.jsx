@@ -4,6 +4,7 @@ import betaFish from '../../../assets/fish/beta_fish-Banner.png';
 import FoodFish from '../../../assets/fish/Foods_Banner.png';
 import Decoration from '../../../assets/fish/Decoration_Banner.png';
 import FishPole from '../../../assets/fish/Fishpole_Banner.png';
+import { Link } from 'react-router-dom'
 
 
 
@@ -28,7 +29,7 @@ export default function BannerSection() {
                     <br />
                     <span>sale off</span>
                   </h1>
-                  <a href="#">Show now</a>
+                  <Link to="/Shop" className="BannerBTN">Show now</Link>
                 </div>
                 <div className="left-item1">
                   <img src={betaFish} alt="" />
@@ -43,7 +44,7 @@ export default function BannerSection() {
                     <br />
                     <span>sale off</span>
                   </h1>
-                  <a href="#">Show now</a>
+                  <Link to="/Shop" className="BannerBTN">Show now</Link>
                 </div>
                 <div className="left-item2">
                   <img src={FoodFish} alt="" />
@@ -57,7 +58,7 @@ export default function BannerSection() {
                     <br />
                     <span>Ends Today</span>
                   </h1>
-                  <a href="#">Show now</a>
+                  <Link to="/Shop" className="BannerBTN">Show now</Link>
                 </div>
                 <div className="left-item3">
                   <img src={Decoration} alt="" />
@@ -71,7 +72,7 @@ export default function BannerSection() {
                     <br />
                     <span>sale off</span>
                   </h1>
-                  <a href="#">Show now</a>
+                  <Link to="/Shop" className="BannerBTN">Show now</Link>
                 </div>
                 <div className="left-item4">
                   <img src={FishPole} alt="" />
