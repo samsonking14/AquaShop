@@ -1,0 +1,126 @@
+footer {
+    height: 50vh;
+    background: linear-gradient(240deg, #00c6ff, #0072ff);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footerlogo img {
+    width: 150px;
+}
+
+.first .content {
+    width: 250px;
+}
+
+.first .content span {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.footer .contact img {
+    width: 50px;
+}
+
+.footer .contact .content {
+    display: flex;
+    align-items: end;
+}
+
+.footer .contact {
+    padding: 30px 0px;
+}
+
+.footer .contact .content img {
+    width: 40px;
+}
+
+.footer .contact .number span {
+    font-weight: 700;
+}
+
+.footer .Second {
+    display: flex;
+    gap: 70px;
+}
+
+.Useful h3,
+.MyAccount h3,
+.Company h3,
+.third h3 {
+    color: #fff;
+    font-weight: 700;
+    padding: 10px 0px;
+}
+
+.list li {
+    list-style: none;
+}
+
+.third {
+    width: 200px;
+}
+
+.Newsletter .content span {
+    font-size: 12px;
+}
+
+.box {
+    position: relative;
+}
+
+.Newsletter .box {
+    padding: 10px 0px;
+}
+
+.box input {
+    padding: 10px;
+    border-radius: 100px;
+    border: none;
+}
+
+.box img {
+    position: absolute;
+    top: 10px;
+    right: 18px;
+    background-color: crimson;
+    border-radius: 100px;
+    width: 35px;
+    height: 35px;
+}
+
+.box button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+.below{
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    padding: 20px 0px;
+}
+hr{
+    border: 1px dotted #000;
+}
+.copyright span{
+    color: #fff;
+    font-weight: 500;
+}
+.policy{
+    display: flex;
+    gap: 20px;
+}
+.policy span{
+    font-weight: 500;
+}

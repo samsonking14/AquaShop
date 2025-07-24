@@ -1,9 +1,9 @@
 import React from 'react'
-import './Advertsement.css';
+import './AdvertsementFish.css';
 import Octo from '../../../assets/fish/octo.png';
 
 
-export default function () {
+export default function AdvertsementFish() {
   return (
     <div>
       <section className='AdvertsementSection'>

@@ -1,0 +1,65 @@
+
+.AdvertsementCoralSection{
+    height: 65vh;
+    background-color: #EDE0E0;
+    padding: 50px 0px;
+}
+.advertiseCoral{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.advertiseCoral .left {
+    width: 50%;
+}
+.contentadvertiseCoral1 span{
+    font-size: 20px;
+    color: #ff7300;
+    font-weight: 600;
+    line-height: 1;
+}
+.contentadvertiseCoral1 h1{
+    font-size: 75px;
+    width: 700px;
+    line-height: 1.2;
+    color: #19063C;
+}
+.contentadvertiseCoral2 p{
+    font-size: 20px;
+    color: #000;
+    font-weight: 400;
+    line-height: 5;
+}
+.contentadvertiseCoral2 button{
+    color: #fff;
+  text-transform: uppercase;
+  font-weight: 900;
+  background-color: #6839cc;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 50px;
+  border: none;
+}
+.contentadvertiseCoral2 button:hover {
+    background-color: #E0F7FA;
+    color: #003B73;
+    transform: scale(1.05);
+}
+.advertiseCoral .right {
+    width: 30%;
+}
+.advertiseCoral .right img{
+    width: 600px;
+    animation: bounce 3s infinite;
+}
+@keyframes bounce {
+  0% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
