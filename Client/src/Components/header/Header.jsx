@@ -35,6 +35,7 @@ export default function Header({ setQuery }) {
 
   return (
     <div>
+      
       <header className={scrolled ? "navbar scrolled" : "navbar"}>
         <div className="navbar">
           {/* logo */}

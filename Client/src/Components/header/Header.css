@@ -4,21 +4,26 @@
   position: fixed;
   width: 100%;
   top: 0;
-  left: 0; 
+  left: 0;
   z-index: 1000;
   justify-content: space-evenly;
   align-items: center;
   background: transparent;
   color: #fff;
 }
+
 /* When scrolled */
+
 .navbar.scrolled {
   background-color: black;
 }
 
+
 .navbar.scrolled a {
-  color: #000; /* or white or anything readable */
+  color: #000;
+  /* or white or anything readable */
 }
+
 .navbar.scrolled .search-div input {
   background-color: #000;
   color: #fff;
@@ -62,6 +67,7 @@ nav a {
   padding-left: 10px;
   font-family: poppins, sans-serif;
 }
+
 .search-div button {
   background: transparent;
   border: none;
@@ -74,8 +80,8 @@ nav a {
   top: 0px;
   background-color: #fc6e51;
   border-radius: 100px;
-   width: 41px;
-  height: 35px; 
+  width: 41px;
+  height: 35px;
 }
 
 /* icons cart,wishlist,login */
@@ -89,6 +95,7 @@ nav a {
 .user-icons img {
   width: 50px;
 }
+
 .cart-container {
   position: relative;
 }
@@ -104,10 +111,12 @@ nav a {
   border-radius: 50%;
   padding: 2px 6px;
 }
+
 /* search dropdown */
 .search-dropdown {
   position: absolute;
-  top: 110%; /* below input box */
+  top: 110%;
+  /* below input box */
   left: 0;
   right: 0;
   background: #000;
@@ -117,7 +126,7 @@ nav a {
   z-index: 999;
   max-height: 200px;
   overflow-y: auto;
-  box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .search-result-item {
@@ -139,7 +148,9 @@ nav a {
   object-fit: cover;
   border-radius: 4px;
 }
-.wishlist, .loginlogo{
+
+.wishlist,
+.loginlogo {
   background-color: #fff;
   border-radius: 100px;
 }

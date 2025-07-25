@@ -14,7 +14,6 @@ export default function Footer() {
         <div className="footer">
 
           <div className="first">
-
             <div className="footerlogo">
               <img src={logo} alt="" />
             </div>
@@ -36,8 +35,8 @@ export default function Footer() {
                 <img src={X} alt="" />
               </div>
             </div>
-
           </div>
+
           <div className="Second">
             <div className="Useful">
               <h3>Useful Links</h3>
@@ -71,8 +70,8 @@ export default function Footer() {
                 <li>Gift cards</li>
               </div>
             </div>
-
           </div>
+
           <div className="third">
             <div className="Newsletter">
               <h3>News Letter</h3>
@@ -84,12 +83,13 @@ export default function Footer() {
                 <button>
                   <img src={Email} alt="" />
                 </button>
-
               </div>
             </div>
           </div>
         </div>
+
         <hr />
+
         <div className="below">
           <div className="copyright">
             <span>copyright © 2025 Aqua Shop. All Rights Reserved</span>
@@ -100,6 +100,7 @@ export default function Footer() {
             <span>Terms of Servioce</span>
           </div>
         </div>
+        
       </footer>
     </div>
   )

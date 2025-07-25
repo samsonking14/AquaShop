@@ -9,6 +9,7 @@
 }
 
 body {
-    background-color: #0CC0DF;
+    background: linear-gradient(240deg, #00C6FF, #0072FF);
     font-family: poppins, sans-serif;
 }
+
