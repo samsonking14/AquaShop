@@ -4,14 +4,14 @@
   padding: 50px 0px;
 }
 
-.BannerAdvertise-list-items {
+.BannerAdvertiseCollections {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
 }
 
-.BannerAdvertise-list {
+.BannerCardsdouble {
+  margin-top: 60px;
   width: 100%;
   height: 300px;
   display: flex;
@@ -20,136 +20,54 @@
   gap: 20px;
 }
 
-.collect-items {
-  width: 280px;
-  height: 200px;
-  background-color: aqua;
+.banner-subtitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 1.1px;
+  color: #fff;
+  margin-bottom: 10px;
 }
 
-/* Banner 1 */
+.banner-main-text {
+  font-size: 2.8rem;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 10px;
+}
 
-.BannerAdvertise-items1 {
+.banner-desc {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.banner-cta {
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffd700;
+}
+.banner-card.purple {
   width: 500px;
-  height: 300px;
+  height: 250px;
   background: linear-gradient(45deg, #856ebf, #baabe8);
   box-shadow: 0px 0px 6px rgb(0, 0, 0, 0.2);
   border-radius: 25px;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.BannerAdvertise-items1>.BannerAdvertise-right-item1 {
-  width: 50%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
-  text-align: center;
 }
-
-.BannerAdvertise-items1>.BannerAdvertise-right-item1>span {
-  color: #fff;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 14px;
-}
-
-.BannerAdvertise-items1>.BannerAdvertise-right-item1>h1 {
-  color: #fff;
-  font-weight: 900;
-  font-size: 40px;
-}
-
-.BannerAdvertise-items1>.BannerAdvertise-right-item1>h1>span {
-  color: #fff;
-  text-transform: uppercase;
-  font-weight: 900;
-  font-size: 20px;
-}
-
-.BannerAdvertise-items1>.BannerAdvertise-right-item1 .BannerBTN {
-  color: #fff;
-  text-transform: uppercase;
-  font-weight: 900;
-  background-color: #6839cc;
-  padding: 10px 20px;
-  font-size: 14px;
-  border-radius: 50px;
-  transition: 0.5s all;  
-}
-.BannerAdvertise-items1>.BannerAdvertise-right-item1 .BannerBTN:hover {
-  background-color: #E0F7FA;
-    color: #003B73;
-    transform: scale(1.05);  
-}
-
-.BannerAdvertise-left-item1 img {
-  width: 120px;
-  object-fit: cover;
-}
-
-.BannerAdvertise-left-item2 img {
-  width: 120px;
-  object-fit: cover;
-}
-
-
-/* Banner 2 */
-.BannerAdvertise-items2 {
+.banner-card.blue {
   width: 500px;
-  height: 300px;
+  height: 250px;
   background: linear-gradient(45deg, #017FAF, #5298BC);
   box-shadow: 0px 0px 6px rgb(0, 0, 0, 0.2);
   border-radius: 25px;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.BannerAdvertise-items2>.BannerAdvertise-right-item2 {
-  width: 50%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
-  text-align: center;
 }
 
-.BannerAdvertise-items2>.BannerAdvertise-right-item2>span {
-  color: #fff;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 14px;
-}
 
-.BannerAdvertise-items2>.BannerAdvertise-right-item2>h1 {
-  color: #fff;
-  font-weight: 900;
-  font-size: 40px;
-}
-
-.BannerAdvertise-items2>.BannerAdvertise-right-item2>h1>span {
-  color: #fff;
-  text-transform: uppercase;
-  font-weight: 900;
-  font-size: 20px;
-}
-
-.BannerAdvertise-items2>.BannerAdvertise-right-item2 .BannerBTN {
-  color: #fff;
-  text-transform: uppercase;
-  font-weight: 900;
-  background-color: #6839cc;
-  padding: 10px 20px;
-  font-size: 14px;
-  border-radius: 50px;
-  transition: 0.5s all;
-}
-.BannerAdvertise-items2>.BannerAdvertise-right-item2 .BannerBTN:hover {
-  background-color: #E0F7FA;
-    color: #003B73;
-    transform: scale(1.05);  
-}

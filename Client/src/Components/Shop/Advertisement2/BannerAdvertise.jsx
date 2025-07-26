@@ -1,44 +1,26 @@
-import React from 'react'
-import './BannerAdvertise.css'
+import React from "react";
+import "./BannerAdvertise.css";
 export default function BannerAdvertise() {
   return (
     <div>
-       <section className="BannerAdvertiseSection">
-        <div className="BannerAdvertise-div">
-          <div className="BannerAdvertise-list-items">
-            <div className="BannerAdvertise-list">
-
-              <div className="BannerAdvertise-items1">
-                <div className="BannerAdvertise-right-item1">
-                  <span>free shipping Betta Fish</span>
-                  <h1>
-                    30%
-                    <br />
-                    <span>sale off</span>
-                  </h1>
-                </div>
-                <div className="BannerAdvertise-left-item1">
-                  <img src="" alt="" />
-                </div>
-              </div>
-              
-              <div className="BannerAdvertise-items2">
-                <div className="BannerAdvertise-right-item2">
-                  <span>free shipping Foods</span>
-                  <h1>
-                    20%
-                    <br />
-                    <span>sale off</span>
-                  </h1>
-                </div>
-                <div className="BannerAdvertise-left-item2">
-                  <img src="" alt="" />
-                </div>
-              </div>
+      <section className="BannerAdvertiseSection">
+        <div className="BannerAdvertiseCollections">
+          <div className="BannerCardsdouble">
+            <div className="banner-card purple">
+              <p className="banner-subtitle">Exclusive Betta Fish Deals</p>
+              <h2 className="banner-main-text">UP TO 30% OFF</h2>
+              <p className="banner-desc">Free Shipping on All Betta Fish</p>
+              <p className="banner-cta">Limited Time Offer – Shop Now!</p>
+            </div>
+            <div className="banner-card blue">
+              <p className="banner-subtitle">Healthy Foods for Happy Fish</p>
+              <h2 className="banner-main-text">FLAT 20% OFF</h2>
+              <p className="banner-desc">Free Shipping on All Orders</p>
+              <p className="banner-cta">Order Today & Save!</p>
             </div>
           </div>
         </div>
       </section>
     </div>
-  )
+  );
 }

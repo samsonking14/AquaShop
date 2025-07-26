@@ -1,0 +1,49 @@
+.shop-sidebar {
+  padding: 1rem;
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  width: 250px;
+}
+
+.sidebar-section {
+  margin-bottom: 1.5rem;
+}
+
+.sidebar-section h4 {
+  font-size: 16px;
+  margin-bottom: 0.8rem;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.3rem;
+}
+
+.sidebar-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.sidebar-section ul li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  padding: 4px 0;
+}
+
+.filter-btn {
+  margin-top: 8px;
+  background: #6a0dad;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tags span {
+  display: inline-block;
+  background: #f3f3f3;
+  padding: 4px 10px;
+  border-radius: 20px;
+  margin: 4px 4px 0 0;
+  font-size: 12px;
+}

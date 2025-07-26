@@ -1,19 +1,32 @@
+/* .TopHeader {
+  background-color: #6a32c5;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  z-index: 100;
+} */
 .TopHeader {
-    background-color: #6839CC;
-    padding: 10px;
-    color: #fff;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    font-weight: 600;
+  background-color: #6a32c5;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+  font-size: 14px;
+  z-index: 100;
+  position: relative; /* ✅ this is KEY */
+  height: 50px;         /* ✅ optional: make it consistent */
 }
-
 .offer {
-    background-color: #FF782C;
-    padding: 10px 20px;
-    border-radius: 100px;
+  background-color: #ff782c;
+  padding: 10px 20px;
+  border-radius: 100px;
 }
 
 .pickup {
-    font-size: 20px;
+  font-size: 20px;
 }
