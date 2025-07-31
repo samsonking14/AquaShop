@@ -55,3 +55,167 @@
     justify-content: center;
     align-items: center;
 }
+/* 📱 Mobile (0–480px) */
+@media (max-width: 480px) {
+  .categories-section {
+    height: auto;
+    padding: 30px 10px;
+  }
+
+  .categoriesList h3 {
+    font-size: 16px;
+    padding-left: 20px;
+    text-align: left;
+  }
+
+  .list-items {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .list-item {
+    width: 80px;
+    height: 80px;
+  }
+
+  .list-item img {
+    width: 40px;
+  }
+
+  .list-items span {
+    font-size: 14px;
+  }
+}
+
+/* 📲 Tablet (481px–768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+  .categories-section {
+    height: auto;
+    padding: 70px 40px;
+  }
+
+  .categoriesList h3 {
+    font-size: 18px;
+    padding-left: 40px;
+  }
+
+  .list-items {
+    flex-wrap: wrap;
+    gap: 45px;
+  }
+
+  .list-item {
+    width: 90px;
+    height: 90px;
+  }
+
+  .list-item img {
+    width: 45px;
+  }
+
+  .list-items span {
+    font-size: 16px;
+  }
+}
+
+/* 💻 Laptop (769px–1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .categories-section {
+    height: auto;
+    padding: 50px 40px;
+  }
+
+  .categoriesList h3 {
+    font-size: 20px;
+    padding-left: 80px;
+  }
+
+  .list-items {
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+
+  .list-item {
+    width: 100px;
+    height: 100px;
+  }
+
+  .list-item img {
+    width: 50px;
+  }
+
+  .list-items span {
+    font-size: 18px;
+  }
+}
+
+/* 🖥️ Desktop (1025px–1200px) */
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .categories-section {
+    height: auto;
+    padding: 50px 40px;
+  }
+  .categoriesList h3 {
+    padding-left: 140px;
+  }
+  .list-items {
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+
+  .list-item {
+    width: 100px;
+    height: 100px;
+  }
+
+  .list-item img {
+    width: 50px;
+  }
+
+  .list-items span {
+    font-size: 18px;
+  }
+}
+
+/* 🖥️💼 Large Desktop (1201px–1440px) */
+@media (min-width: 1201px) and (max-width: 1440px) {
+  .categories-section {
+    height: auto;
+    padding: 50px 40px;
+  }
+  .categoriesList h3 {
+    padding-left: 170px;
+  }
+  .list-items {
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+
+  .list-item {
+    width: 100px;
+    height: 100px;
+  }
+
+  .list-item img {
+    width: 50px;
+  }
+
+  .list-items span {
+    font-size: 18px;
+  }
+}
+
+/* 🖥️🔲 Very Large Desktop (1441px and above) */
+@media (min-width: 1441px) {
+  .categoriesList h3 {
+    padding-left: 190px;
+  }
+
+  .list-items {
+    gap: 60px;
+  }
+
+  .list-items span {
+    font-size: 20px;
+  }
+}

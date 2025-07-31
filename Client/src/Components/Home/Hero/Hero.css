@@ -1,28 +1,31 @@
-/* Hero Section */
-
-.Hero-section {
+/* 
+.hero-section {
     height: 100vh;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     background: linear-gradient(240deg, #00C6FF, #0072FF);
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 }
 
-/* dog image place */
-.Hero-section .left {
+.hero-section .left,
+.hero-section .right {
+    flex: 1 1 auto;
+}
+
+.hero-section .left {
     width: 100%;
 }
 
-.Hero-section .left img {
-    padding-top: 50px;
-    width: 800px;
+.hero-section .left img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
     transform: scaleX(-1);
 }
 
-/* Hero-page Content Placed */
-.Hero-section .right {
+.hero-section .right {
     padding-top: 120px;
     width: 100%;
     height: 90vh;
@@ -33,18 +36,19 @@
     text-transform: uppercase;
 }
 
-.Hero-section .right>span {
+.hero-section .right>span {
     font-size: 25px;
     color: #E0F7FA;
     font-weight: 700;
     font-family: poppins, sans-serif;
 }
 
-.Hero-section .right .spanbtn{
+.hero-section .right .spanbtn {
     padding: 10px 20px;
     border-radius: 50px;
     border: 2px solid #A084E8;
-    width: 25%;
+    width: 200px;
+    text-align: center;
     font-size: 25px;
     font-family: poppins, sans-serif;
     font-weight: 700;
@@ -55,13 +59,13 @@
     cursor: pointer;
 }
 
-.Hero-section .right .spanbtn:hover {
+.hero-section .right .spanbtn:hover {
     background-color: #E0F7FA;
     color: #000;
     transform: scale(1.05);
 }
 
-.Hero-section .right h1 {
+.hero-section .right h1 {
     width: 800px;
     display: flex;
     flex-direction: column;
@@ -69,4 +73,241 @@
     color: #fff;
     line-height: 1.1;
     font-family: poppins, sans-serif;
+} */
+
+/* Base Styles (Mobile First) */
+.hero-section {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(240deg, #00C6FF, #0072FF);
+    padding: 150px 20px;
+    text-align: center;
+}
+
+.hero-section .left,
+.hero-section .right {
+    width: 100%;
+    flex: 1 1 100%;
+}
+
+.hero-section .left img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    transform: scaleX(-1);
+    margin: 0 auto;
+}
+
+.hero-section .right {
+    padding-top: 40px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.hero-section .right>span {
+    font-size: 28px;
+    color: #E0F7FA;
+    font-weight: 700;
+    font-family: poppins, sans-serif;
+}
+
+.hero-section .right h1 {
+    font-size: 60px;
+    line-height: 1.2;
+    color: #fff;
+    font-family: poppins, sans-serif;
+    margin: 20px 0;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-section .right .spanbtn {
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 2px solid #A084E8;
+    width: 200px;
+    font-size: 22px;
+    background-color: #003B73;
+    color: #fff;
+    font-family: poppins, sans-serif;
+    font-weight: 700;
+    margin-top: 20px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.hero-section .right .spanbtn:hover {
+    background-color: #E0F7FA;
+    color: #000;
+    transform: scale(1.05);
+}
+
+@media (min-width: 768px) {
+    .hero-section {
+        flex-direction: column;
+        flex-wrap: wrap;
+        height:100vh;
+        padding: 150px 40px;
+    }
+
+    .hero-section .left,
+    .hero-section .right {
+        width: 50%;
+        flex: 1 1 50%;
+    }
+
+    .hero-section .left img {
+        max-width: 600px;
+    }
+
+    .hero-section .right {
+        align-items: center;
+        padding-top: 80px;
+    }
+
+    .hero-section .right h1 {
+        font-size: 50px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero-section .right>span {
+        font-size: 22px;
+    }
+
+    .hero-section .right .spanbtn {
+        width: 180px;
+        font-size: 19px;
+        text-align: center;
+    }
+}
+@media (min-width: 769px) and (max-width: 973px) {
+  .hero-section {
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: auto;
+    padding: 210px 30px;
+  }
+
+  .hero-section .left,
+  .hero-section .right {
+    width: 100%;
+    flex: 1 1 100%;
+  }
+
+  .hero-section .left img {
+    max-width: 500px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .hero-section .right {
+    align-items: center;
+    padding-top: 40px;
+  }
+
+  .hero-section .right h1 {
+    font-size: 55px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero-section .right > span {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .hero-section .right .spanbtn {
+    width: 190px;
+    font-size: 24px;
+    text-align: center;
+  }
+}
+
+
+/* Laptop (min 1024px) */
+@media (min-width: 1024px) {
+    .hero-section {
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: left;
+        padding: 80px 60px;
+    }
+
+    .hero-section .left img {
+        max-width: 500px;
+    }
+
+    .hero-section .right h1 {
+        font-size: 60px;
+        width: 600px;
+        text-align: left;
+    }
+
+    .hero-section .right>span {
+        font-size: 22px;
+    }
+
+    .hero-section .right .spanbtn {
+        font-size: 20px;
+        width: 200px;
+    }
+    .hero-section .right{
+        align-items: flex-start;
+    }
+}
+
+/* Desktop (min 1280px) */
+@media (min-width: 1280px) {
+    .hero-section {
+        padding: 100px;
+    }
+
+    .hero-section .left img {
+        max-width: 600px;
+    }
+
+    .hero-section .right h1 {
+        font-size: 72px;
+        width: 700px;
+    }
+
+    .hero-section .right>span {
+        font-size: 24px;
+    }
+
+    .hero-section .right .spanbtn {
+        font-size: 22px;
+        width: 220px;
+    }
+}
+
+/* Very Large Desktop (min 1536px) */
+@media (min-width: 1536px) {
+    .hero-section .left img {
+        max-width: 700px;
+    }
+
+    .hero-section .right h1 {
+        font-size: 80px;
+        width: 800px;
+    }
+
+    .hero-section .right>span {
+        font-size: 25px;
+    }
+
+    .hero-section .right .spanbtn {
+        font-size: 24px;
+        width: 240px;
+    }
 }

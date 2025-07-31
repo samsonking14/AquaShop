@@ -8,7 +8,7 @@ export default function Hero() {
   return (
     <div>
       {/* hero section */}
-      <section className="Hero-section">
+      <section className="hero-section">
         {/* Image placed */}
         <div className="left">
           <img src={FishBg} alt="" />

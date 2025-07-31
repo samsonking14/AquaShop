@@ -7,9 +7,6 @@ import FishPole from '../../../assets/fish/Fishpole_Banner.png';
 import { Link } from 'react-router-dom'
 
 
-
-
-
 export default function BannerSection() {
   return (
     <div>

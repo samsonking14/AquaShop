@@ -1,32 +1,98 @@
-/* .TopHeader {
-  background-color: #6a32c5;
-  color: white;
-  padding: 10px 0;
-  text-align: center;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  position: relative;
-  z-index: 100;
-} */
 .TopHeader {
   background-color: #6a32c5;
   color: white;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 10px 0;
+  padding: 10px 20px;
   font-size: 14px;
   z-index: 100;
-  position: relative; /* ✅ this is KEY */
-  height: 50px;         /* ✅ optional: make it consistent */
+  position: relative;
+  height: 50px;
+  flex-wrap: wrap;
+  text-align: center;
 }
+
 .offer {
   background-color: #ff782c;
-  padding: 10px 20px;
+  padding: 8px 16px;
   border-radius: 100px;
+  font-size: 14px;
+  margin: 4px;
 }
 
 .pickup {
-  font-size: 20px;
+  font-size: 16px;
+  margin: 4px;
+}
+
+/* Small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .TopHeader {
+    flex-direction: column;
+    font-size: 12px;
+    padding: 18px 10px;
+    height: auto;
+  }
+
+  .offer {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+
+  .pickup {
+    font-size: 14px;
+  }
+}
+
+/* Medium devices (tablets, 576px to 767px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .TopHeader {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 8px 16px;
+  }
+
+  .offer {
+    font-size: 13px;
+    padding: 8px 14px;
+  }
+
+  .pickup {
+    font-size: 16px;
+  }
+}
+
+/* Large devices (768px to 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .TopHeader {
+    padding: 10px 24px;
+    font-size: 13px;
+  }
+
+  .offer {
+    font-size: 14px;
+    padding: 10px 18px;
+  }
+
+  .pickup {
+    font-size: 18px;
+  }
+}
+
+/* Extra large devices (1025px and up) */
+@media (min-width: 1025px) {
+  .TopHeader {
+    font-size: 14px;
+    padding: 0px 40px;
+  }
+
+  .offer {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+  .pickup {
+    font-size: 20px;
+  }
 }
