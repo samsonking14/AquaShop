@@ -1,5 +1,3 @@
-/* Promise Section */
-
 .promise-section {
     height: 22vh;
     width: 100%;
@@ -10,8 +8,6 @@
     justify-content: center;
 }
 
-
-/* promise delivery content */
 .promise-center {
     border: 1px dashed #000;
     width: 80%;
@@ -67,4 +63,187 @@
 
 .list-5 img {
     width: 50px;
+}
+
+/* 📱 Mobile Devices (up to 575px) */
+@media (max-width: 575.98px) {
+  .promise-section {
+    height: auto;
+    padding: 20px 10px;
+  }
+
+  .promise-center {
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+    border: none;
+  }
+
+  .promise-center .list-1,
+  .list-2,
+  .list-3,
+  .list-4,
+  .list-5 {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .promise-center > hr {
+    display: none;
+  }
+
+  .list-1 img,
+  .list-2 img,
+  .list-3 img,
+  .list-4 img,
+  .list-5 img {
+    width: 50px;
+  }
+
+  .list-1 span,
+  .list-2 span,
+  .list-3 span,
+  .list-4 span,
+  .list-5 span {
+    width: 200px;
+    font-size: 13px;
+  }
+}
+
+/* 📱📲 Tablets (576px to 767px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .promise-section {
+    height: auto;
+    padding: 20px 10px;
+  }
+
+  .promise-center {
+    flex-direction: column;
+    gap: 18px;
+    width: 100%;
+    border: none;
+  }
+
+  .promise-center > hr {
+    display: none;
+  }
+
+  .promise-center .list-1,
+  .list-2,
+  .list-3,
+  .list-4,
+  .list-5 {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .list-1 img,
+  .list-2 img,
+  .list-3 img,
+  .list-4 img,
+  .list-5 img {
+    width: 50px;
+  }
+
+  .list-1 span,
+  .list-2 span,
+  .list-3 span,
+  .list-4 span,
+  .list-5 span {
+    width: auto;
+    font-size: 15px;
+  }
+}
+
+/* 💻 Small Laptops (768px to 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .promise-section {
+    height: auto;
+    padding: 50px 0;
+  }
+
+  .promise-center {
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 90%;
+  }
+
+  .promise-center .list-1,
+  .list-2,
+  .list-3,
+  .list-4,
+  .list-5 {
+    width: 45%;
+    justify-content: center;
+  }
+
+  .promise-center > hr {
+    display: none;
+  }
+}
+
+/* 🖥️ Desktop (1025px to 1365px) */
+@media (min-width: 1025px) and (max-width: 1365.98px) {
+  .promise-section {
+    height: auto;
+    padding: 20px 0px;
+  }
+
+  .promise-center {
+    gap: 35px;
+    width: 90%;
+    flex-wrap: wrap;
+  }
+
+  .promise-center .list-1,
+  .list-2,
+  .list-3,
+  .list-4,
+  .list-5 {
+    width: 250px;
+  }
+
+  .promise-center > hr {
+    height: 30px;
+  }
+}
+
+/* 🖥️🖥️ Large Desktops (1366px to 1919px) */
+@media (min-width: 1366px) and (max-width: 1919.98px) {
+  .promise-center {
+    width: 90%;
+    gap: 30px;
+  }
+
+  .promise-center .list-1,
+  .list-2,
+  .list-3,
+  .list-4,
+  .list-5 {
+    width: 250px;
+  }
+}
+
+/* 🔥 Ultra-wide Desktops (1920px and above) */
+@media (min-width: 1920px) {
+  .promise-section {
+    height: 22vh;
+  }
+
+  .promise-center {
+    width: 70%;
+    gap: 50px;
+  }
+
+  .promise-center .list-1,
+  .list-2,
+  .list-3,
+  .list-4,
+  .list-5 {
+    width: 250px;
+  }
+
+  .promise-center > hr {
+    height: 60px;
+  }
 }

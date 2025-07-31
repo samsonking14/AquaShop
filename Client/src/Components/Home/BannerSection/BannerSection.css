@@ -27,6 +27,8 @@
   justify-content: center;
   align-items: center;
   gap: 20px;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 .collect-items {
@@ -48,7 +50,7 @@
   justify-content: center;
 }
 
-.collect-items1>.right-item1 {
+.collect-items1 > .right-item1 {
   width: 50%;
   height: 100%;
   display: flex;
@@ -58,27 +60,27 @@
   text-align: center;
 }
 
-.collect-items1>.right-item1>span {
+.collect-items1 > .right-item1 > span {
   color: #fff;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
 }
 
-.collect-items1>.right-item1>h1 {
+.collect-items1 > .right-item1 > h1 {
   color: #fff;
   font-weight: 900;
   font-size: 40px;
 }
 
-.collect-items1>.right-item1>h1>span {
+.collect-items1 > .right-item1 > h1 > span {
   color: #fff;
   text-transform: uppercase;
   font-weight: 900;
   font-size: 20px;
 }
 
-.collect-items1>.right-item1 .BannerBTN {
+.collect-items1 > .right-item1 .BannerBTN {
   color: #fff;
   text-transform: uppercase;
   font-weight: 900;
@@ -86,12 +88,13 @@
   padding: 10px 20px;
   font-size: 14px;
   border-radius: 50px;
-  transition: 0.5s all;  
+  transition: 0.5s all;
 }
-.collect-items1>.right-item1 .BannerBTN:hover {
-  background-color: #E0F7FA;
-    color: #003B73;
-    transform: scale(1.05);  
+
+.collect-items1 > .right-item1 .BannerBTN:hover {
+  background-color: #e0f7fa;
+  color: #003b73;
+  transform: scale(1.05);
 }
 
 .left-item1 img {
@@ -118,7 +121,7 @@
 .collect-items2 {
   width: 290px;
   height: 230px;
-  background: linear-gradient(45deg, #017FAF, #5298BC);
+  background: linear-gradient(45deg, #017faf, #5298bc);
   box-shadow: 0px 0px 6px rgb(0, 0, 0, 0.2);
   border-radius: 25px;
   display: flex;
@@ -126,7 +129,7 @@
   justify-content: center;
 }
 
-.collect-items2>.right-item2 {
+.collect-items2 > .right-item2 {
   width: 50%;
   height: 100%;
   display: flex;
@@ -136,27 +139,27 @@
   text-align: center;
 }
 
-.collect-items2>.right-item2>span {
+.collect-items2 > .right-item2 > span {
   color: #fff;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
 }
 
-.collect-items2>.right-item2>h1 {
+.collect-items2 > .right-item2 > h1 {
   color: #fff;
   font-weight: 900;
   font-size: 40px;
 }
 
-.collect-items2>.right-item2>h1>span {
+.collect-items2 > .right-item2 > h1 > span {
   color: #fff;
   text-transform: uppercase;
   font-weight: 900;
   font-size: 20px;
 }
 
-.collect-items2>.right-item2 .BannerBTN {
+.collect-items2 > .right-item2 .BannerBTN {
   color: #fff;
   text-transform: uppercase;
   font-weight: 900;
@@ -166,10 +169,11 @@
   border-radius: 50px;
   transition: 0.5s all;
 }
-.collect-items2>.right-item2 .BannerBTN:hover {
-  background-color: #E0F7FA;
-    color: #003B73;
-    transform: scale(1.05);  
+
+.collect-items2 > .right-item2 .BannerBTN:hover {
+  background-color: #e0f7fa;
+  color: #003b73;
+  transform: scale(1.05);
 }
 
 /* Banner 3 */
@@ -177,7 +181,7 @@
 .collect-items3 {
   width: 290px;
   height: 230px;
-  background: linear-gradient(45deg, #E7BC56, #e4c57b);
+  background: linear-gradient(45deg, #e7bc56, #e4c57b);
   box-shadow: 0px 0px 6px rgb(0, 0, 0, 0.2);
   border-radius: 25px;
   display: flex;
@@ -185,7 +189,7 @@
   justify-content: center;
 }
 
-.collect-items3>.right-item3 {
+.collect-items3 > .right-item3 {
   width: 50%;
   height: 100%;
   display: flex;
@@ -195,27 +199,27 @@
   text-align: center;
 }
 
-.collect-items3>.right-item3>span {
+.collect-items3 > .right-item3 > span {
   color: #fff;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
 }
 
-.collect-items3>.right-item3>h1 {
+.collect-items3 > .right-item3 > h1 {
   color: #fff;
   font-weight: 900;
   font-size: 40px;
 }
 
-.collect-items3>.right-item3>h1>span {
+.collect-items3 > .right-item3 > h1 > span {
   color: #fff;
   text-transform: uppercase;
   font-weight: 900;
   font-size: 20px;
 }
 
-.collect-items3>.right-item3 .BannerBTN {
+.collect-items3 > .right-item3 .BannerBTN {
   color: #fff;
   text-transform: uppercase;
   font-weight: 900;
@@ -225,17 +229,18 @@
   border-radius: 50px;
   transition: 0.5s all;
 }
-.collect-items3>.right-item3 .BannerBTN:hover {
-  background-color: #E0F7FA;
-    color: #003B73;
-    transform: scale(1.05);  
+
+.collect-items3 > .right-item3 .BannerBTN:hover {
+  background-color: #e0f7fa;
+  color: #003b73;
+  transform: scale(1.05);
 }
 
 /* Banner 4 */
 .collect-items4 {
   width: 290px;
   height: 230px;
-  background: linear-gradient(45deg, #9B8F7F, #9B8F7F);
+  background: linear-gradient(45deg, #9b8f7f, #9b8f7f);
   box-shadow: 0px 0px 6px rgb(0, 0, 0, 0.2);
   border-radius: 25px;
   display: flex;
@@ -243,7 +248,7 @@
   justify-content: center;
 }
 
-.collect-items4>.right-item4 {
+.collect-items4 > .right-item4 {
   width: 50%;
   height: 100%;
   display: flex;
@@ -253,27 +258,27 @@
   text-align: center;
 }
 
-.collect-items4>.right-item4>span {
+.collect-items4 > .right-item4 > span {
   color: #fff;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
 }
 
-.collect-items4>.right-item4>h1 {
+.collect-items4 > .right-item4 > h1 {
   color: #fff;
   font-weight: 900;
   font-size: 40px;
 }
 
-.collect-items4>.right-item4>h1>span {
+.collect-items4 > .right-item4 > h1 > span {
   color: #fff;
   text-transform: uppercase;
   font-weight: 900;
   font-size: 20px;
 }
 
-.collect-items4>.right-item4 .BannerBTN {
+.collect-items4 > .right-item4 .BannerBTN {
   color: #fff;
   text-transform: uppercase;
   font-weight: 900;
@@ -283,8 +288,229 @@
   border-radius: 50px;
   transition: 0.5s all;
 }
-.collect-items4>.right-item4 .BannerBTN:hover {
-  background-color: #E0F7FA;
-    color: #003B73;
-    transform: scale(1.05);  
+
+.collect-items4 > .right-item4 .BannerBTN:hover {
+  background-color: #e0f7fa;
+  color: #003b73;
+  transform: scale(1.05);
+}
+
+/* 📱 Mobile (0–480px) */
+@media (max-width: 480px) {
+  .BannerCollectionSection {
+    height: 150vh;
+    padding: 40px 10px;
+  }
+
+  .BannerCollectionSection h3 {
+    font-size: 16px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+  }
+
+  .collection-list {
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .collect-items1,
+  .collect-items2,
+  .collect-items3,
+  .collect-items4 {
+    width: 350px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .right-item1,
+  .right-item2,
+  .right-item3,
+  .right-item4 {
+    width: 100%;
+  }
+
+  .left-item1 img,
+  .left-item2 img,
+  .left-item3 img,
+  .left-item4 img {
+    width: 120px;
+  }
+
+  .collect-items1 h1,
+  .collect-items2 h1,
+  .collect-items3 h1,
+  .collect-items4 h1 {
+    font-size: 22px;
+  }
+
+  .collect-items1 h1 span,
+  .collect-items2 h1 span,
+  .collect-items3 h1 span,
+  .collect-items4 h1 span {
+    font-size: 14px;
+  }
+
+  .BannerBTN {
+    font-size: 13px;
+    padding: 6px 12px;
+    margin-top: 10px;
+  }
+}
+
+
+/* 📲 Tablet (481px–768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+  .BannerCollectionSection {
+    height: 70vh;
+    padding: 50px 10px;
+  }
+
+  .BannerCollectionSection h3 {
+    font-size: 18px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+  }
+
+  .collection-list {
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+
+  .collect-items1,
+  .collect-items2,
+  .collect-items3,
+  .collect-items4 {
+    width: 300px;
+    height: 220px;
+  }
+
+  .left-item1 img,
+  .left-item2 img,
+  .left-item3 img,
+  .left-item4 img {
+    width: 100px;
+  }
+}
+
+/* 💻 Laptop (769px–1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .BannerCollectionSection {
+    height: 75vh;
+    padding: 60px 30px;
+  }
+
+  .BannerCollectionSection h3 {
+    padding-left: 60px;
+    padding-bottom: 20px;
+  }
+
+  .collection-list {
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+
+  .collect-items1,
+  .collect-items2,
+  .collect-items3,
+  .collect-items4 {
+    width: 300px;
+    height: 230px;
+  }
+
+  .left-item1 img,
+  .left-item2 img,
+  .left-item3 img,
+  .left-item4 img {
+    width: 110px;
+  }
+}
+
+/* 🖥️ Desktop (1025px–1200px) */
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .BannerCollectionSection {
+    height: 75vh;
+    padding: 60px 30px;
+  }
+
+  .BannerCollectionSection h3 {
+    padding-left: 140px;
+    padding-bottom: 20px;
+  }
+
+  .collection-list {
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+
+  .collect-items1,
+  .collect-items2,
+  .collect-items3,
+  .collect-items4 {
+    width: 350px;
+    height: 230px;
+  }
+
+  .left-item1 img,
+  .left-item2 img,
+  .left-item3 img,
+  .left-item4 img {
+    width: 110px;
+  }
+}
+
+/* 🖥️💼 Large Desktop (1201px–1440px) */
+@media (min-width: 1201px) and (max-width: 1440px) {
+  .BannerCollectionSection {
+    height: 75vh;
+    padding: 60px 30px;
+  }
+
+  .BannerCollectionSection h3 {
+    padding-left: 140px;
+    padding-bottom: 20px;
+  }
+
+  .collection-list {
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+
+  .collect-items1,
+  .collect-items2,
+  .collect-items3,
+  .collect-items4 {
+    width: 350px;
+    height: 230px;
+  }
+
+  .left-item1 img,
+  .left-item2 img,
+  .left-item3 img,
+  .left-item4 img {
+    width: 110px;
+  }
+}
+
+/* 🖥️🔲 Very Large Desktop (1441px and above) */
+@media (min-width: 1441px) {
+  .BannerCollectionSection h3 {
+    padding-left: 190px;
+  }
+
+  .collection-list {
+    gap: 30px;
+  }
+
+  .collect-items1,
+  .collect-items2,
+  .collect-items3,
+  .collect-items4 {
+    width: 290px;
+    height: 230px;
+  }
 }

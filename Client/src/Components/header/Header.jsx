@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import "./Header.css";
 import logo from "../../assets/AQualogo.png";
 import searchIcon from "../../assets/search.png";
@@ -11,6 +11,36 @@ import { Link } from "react-router-dom";
 import TopHeader from "./TopHeader.jsx";
 import { useLocation } from "react-router-dom";
 export default function Header({ setQuery }) {
+  const [menuOpen, setMenuOpen] = useState(false);
+  const menuRef = useRef(null);
+
+  const toggleMenu = () => setMenuOpen((prev) => !prev);
+
+  // Close dropdown on outside click
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (menuRef.current && !menuRef.current.contains(event.target)) {
+        setMenuOpen(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
+
+  // Close dropdown on scroll
+  useEffect(() => {
+    const handleScroll = () => {
+      if (menuOpen) {
+        setMenuOpen(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [menuOpen]);
+
+
   const location = useLocation();
   const isHomePage = location.pathname === "/";
 
@@ -41,27 +71,29 @@ export default function Header({ setQuery }) {
     <div>
       {/* Only show TopHeader if NOT on home page */}
       {location.pathname !== "/" && <TopHeader />}
-      {/* <header className={scrolled ? "navbar scrolled" : "navbar"}> */}
-      {/* <header
-      className={`navbar ${scrolled ? "scrolled" : ""} ${
-        !isHomePage ? "offset-top" : ""
-      }`}
-    > */}
-    <header
-  className={`navbar ${scrolled ? "scrolled" : ""} ${isHomePage ? "home-nav" : "default-nav"}`}
->
+
+      <header
+        className={`navbar ${scrolled ? "scrolled" : ""} ${isHomePage ? "home-nav" : "default-nav"}`}
+      >
         {/* logo */}
         <div className="logo">
           <img src={logo} alt="" />
         </div>
-
+        <div className="hamburger" onClick={toggleMenu}>
+          <div className="bar"></div>
+          <div className="bar"></div>
+          <div className="bar"></div>
+        </div>
         {/* navbar */}
-        <nav>
-          <Link to="/">Home</Link>
-          <Link to="/Shop">Shop</Link>
-          <Link to="/About">About</Link>
-          <Link to="/Track">Track</Link>
-          <Link to="/Contact">Contact</Link>
+        <nav
+          ref={menuRef}
+          className={`nav-links ${menuOpen ? "open" : ""}`}
+        >
+          <Link className="navlinks" to="/" onClick={() => setMenuOpen(false)}>Home</Link>
+          <Link className="navlinks" to="/Shop" onClick={() => setMenuOpen(false)}>Shop</Link>
+          <Link className="navlinks" to="/About" onClick={() => setMenuOpen(false)}>About</Link>
+          <Link className="navlinks" to="/Track" onClick={() => setMenuOpen(false)}>Track</Link>
+          <Link className="navlinks" to="/Contact" onClick={() => setMenuOpen(false)}>Contact</Link>
         </nav>
 
         {/* search box */}
