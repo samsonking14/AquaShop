@@ -20,7 +20,7 @@ export default function PromiseDelivery() {
             <hr/>
             <div className="list-2">
                 <img src={Fishtank} alt=""/>
-                <span>Free Tank-Safe Delivery</span>
+                <span>Free Tank Safe Delivery</span>
             </div>
             <hr/>
             <div className="list-3">
